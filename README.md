@@ -43,18 +43,18 @@ This is a simple web page to store my CV and some information about my projects 
 
 ## Knowledge
 
-- Langage
+**Langage**
   - Java
   - C
   - JavaScript
   - SQL
 
-- Savoir faire
+**Savoir faire**
   - Méthode Agile
   - CI/CD - DevOps (vite fait)
   - travail en groupe/équipe
 
-- Technologies
+**Technologies**
   - Linux/macOs
   - NodeJS
   - Postgresql
@@ -65,7 +65,7 @@ This is a simple web page to store my CV and some information about my projects 
   - Spring
   - API REST/Graphql
 
-- Je connais/déjà utilisé (j'ai que les bases)
+**Je connais/déjà utilisé (j'ai que les bases)**
   - C++
   - Terraform
   - MongoDB
@@ -77,27 +77,34 @@ This is a simple web page to store my CV and some information about my projects 
 
 ## Project
 
-- Client FTP 
+**Client FTP**
   - Java
   - https://gitlab.univ-lille.fr/christopher.pottier.etu/projet-reseaux-collin-pottier
-- Modélisation 3D 
+
+**Modélisation 3D**
   - Java
   - https://gitlab.univ-lille.fr/2021-projet-modelisation/projetmodeg1
-- serveur web 
+
+**serveur web**
   - C/HTTP
   - https://gitlab.univ-lille.fr/etu/2021-2022/m4101c/g-collin-paree
-- Site web utilisation d'API 
+
+**Site web utilisation d'API**
   - Javascript
   - https://gitlab.univ-lille.fr/eliott.collin.etu/projet_2022_boussert_almeida_collin
-- Système expert 
+
+**Système expert**
   - Java 
   - https://gitlab.univ-lille.fr/eliott.collin.etu/systeme-expert
-- Application Web de gestion de base de donnée 
+
+**Application Web de gestion de base de donnée**
   - Java/postgresql/h2 
   - https://gitlab.com/cours-lp-da2i/ld03-web-backend-bdd/web/projet03
-- Site d'upload de fichier 
+
+**Site d'upload de fichier**
   - Java 
   - https://gitlab.com/cours-lp-da2i/ld03-web-backend-bdd/web/projet04
-- DebtSwapper 
+
+**DebtSwapper**
   - Java/Srping 
   - https://gitlab.com/cours-lp-da2i/ld03-web-backend-bdd/web/debt-swapper
