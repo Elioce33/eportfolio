@@ -1,0 +1,24 @@
+html, body {
+    /* width: 100%; */
+    min-height: 100%;
+}
+
+body {
+    background: url("../images/website_under_construct.gif") center;
+    background-size: cover;
+}
+
+.main {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+
+    margin-top: 5%;
+    
+    /* border: 1px solid black; */
+}
+
+.inline {
+    display: inline-block;
+}
