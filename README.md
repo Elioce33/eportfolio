@@ -11,7 +11,7 @@ This is a simple web page to store my CV and some information about my projects 
   - Just Series (JS)
 - Décrires les projets réalisé
 - Décrire mes missions durant mes expériences professionels
-- Faire le design globale du site (Style terminal ? noir/vert, matrix)
+- Faire le design globale du site (Poisson, des bulles, de l'eau, etc)
 - Débuté un projet React/Next ? (pour le site)
   - 1 page d'accueil (gros résumé projet/expériences/techno + download CV)
   - 1 page sur les connaissances
@@ -54,7 +54,7 @@ This is a simple web page to store my CV and some information about my projects 
   - CI/CD - DevOps (vite fait)
   - travail en groupe/équipe
 
-**Technologies**
+**Technologies, framework**
   - Linux/macOs
   - NodeJS
   - Postgresql
@@ -64,6 +64,7 @@ This is a simple web page to store my CV and some information about my projects 
   - JEE/tomcat
   - Spring
   - API REST/Graphql
+  - TypeScript
 
 **Je connais/déjà utilisé (j'ai que les bases)**
   - C++
