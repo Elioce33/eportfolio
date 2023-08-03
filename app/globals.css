@@ -1,22 +1,22 @@
-@tailwind base;
+/*@tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities;*/
 
-:root {
+/*:root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
+}*/
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+}*/
 
-body {
+/*body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,5 +24,49 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}*/
+
+html, body {
+  /* width: 100%; */
+  min-height: 100%;
 }
 
+body {
+  /* background: url("../images/website_under_construct.gif") center; */
+  /* background-size: cover; */
+  background-color: rgb(197, 248, 243);
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  border: 2px dashed black;
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+}
+
+
+main {
+  margin: auto;
+  width: 70%;
+  margin-top: 5%;
+  border: 2px dashed black;
+}
+
+main .bubble {
+  margin: 0% auto;
+  width: 45%;
+  border: 3px dashed black;
+  transform: translateX(-55%);
+}
+
+main .bubble:nth-of-type(2n)  {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: translateX(55%);
+}
+
+main .bubble .bubble_content {
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
