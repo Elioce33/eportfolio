@@ -3,16 +3,39 @@ import '../public/styles/main.css'
 export default function Page() {
   return <>
     <h1>Eliott Collin</h1>
-    <div className='main'>
+    <main className='main'>
       <article>
-        <h2>Project</h2>
+        <div className='content'>
+            <h2>Project</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sapiente delectus asperiores obcaecati hic exercitationem culpa temporibus debitis nisi voluptatem, possimus perferendis molestiae accusamus ad! Illo debitis inventore provident fugiat?
+            </p>
+        </div>
       </article>
       <article>
-        <h2>School career</h2>
+        <div className='content'>
+          <h2>School career</h2>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sapiente delectus asperiores obcaecati hic exercitationem culpa temporibus debitis nisi voluptatem, possimus perferendis molestiae accusamus ad! Illo debitis inventore provident fugiat?
+            </p>
+        </div>
       </article>
       <article>
-        <h2>Work experience</h2>
+        <div className='content'>
+          <h2>Work experience</h2>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sapiente delectus asperiores obcaecati hic exercitationem culpa temporibus debitis nisi voluptatem, possimus perferendis molestiae accusamus ad! Illo debitis inventore provident fugiat?
+            </p>
+        </div>
       </article>
-    </div>
+      <article>
+        <div className='content'>
+          <h2>Hobbies</h2>
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sapiente delectus asperiores obcaecati hic exercitationem culpa temporibus debitis nisi voluptatem, possimus perferendis molestiae accusamus ad! Illo debitis inventore provident fugiat?
+            </p>
+        </div>
+      </article>
+    </main>
   </>
 }

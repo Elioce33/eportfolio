@@ -19,21 +19,27 @@ h1 {
 }
 
 
-.main {
+main {
     margin: auto;
     width: 70%;
     margin-top: 5%;
     border: 2px dashed black;
 }
 
-.main article {
-    width: 50%;
-    border: 2px dashed black;
+main article {
+    margin: 0% auto;
+    width: 45%;
+    border: 3px dashed black;
+    transform: translateX(-55%);
 }
 
-.main article:nth-of-type(2n)  {
-    background-color: rgba(0, 0, 0, 0.5);
-    margin-left: 50%;
+main article:nth-of-type(2n)  {
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: translateX(55%);
 }
 
+main article .content {
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
 
