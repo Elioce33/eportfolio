@@ -70,3 +70,19 @@ main .bubble .bubble_content {
   margin: 10px;
   background-color: rgba(0, 0, 0, 0.1);
 }
+
+
+nav {
+  width: 20%;
+  position: absolute;
+
+
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+
+
+
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
+}
