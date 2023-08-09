@@ -5,14 +5,14 @@ const lorem = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore 
 export default function Page() {
   return <>
     <Bubble className='presentation_bubble' title="About">
-      <p>
+      <div>
         Information :
         <ul>
           <li>Prénom : Eliott</li>
           <li>Nom: Collin</li>
           <li>Age: 18 ans</li>
         </ul>
-      </p>
+      </div>
     </Bubble>
     <h1>Eliott Collin</h1>
     <main>
