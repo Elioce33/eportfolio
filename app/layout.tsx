@@ -11,7 +11,9 @@ export default function RootLayout(props: {
         <html lang="en">
         <body>
             <Nav />
-            {props.children}
+            <div className='page'>
+                {props.children}
+            </div>
             <Footer />
         </body>
         </html>

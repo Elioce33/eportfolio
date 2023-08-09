@@ -37,6 +37,40 @@ body {
   background-color: rgb(197, 248, 243);
 }
 
+.bubble_container {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bubble {
+  margin: auto;
+  background-color: rgba(0, 0, 250, 0.1);
+  /*border: 2px dashed black;*/
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.bubble h2 {
+  text-align: center;
+}
+
+
+.presentation_bubble.bubble_container {
+  background-color: rgba(255, 0, 0, 0.3);
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 25%;
+  height: 25vw;
+  margin: 10px;
+  z-index: 1;
+}
+
+.presentation_bubble h2 {
+  text-align: center;
+}
+
+
 h1 {
   font-size: 5rem;
   text-align: center;
@@ -54,42 +88,42 @@ main {
   border: 2px dashed black;
 }
 
-main .bubble {
+main .bubble_container {
   margin: 0% auto;
-  width: 45%;
-  border: 3px dashed black;
+  width: 25vw;
+  height: 25vw;
   transform: translateX(-55%);
 }
 
-main .bubble:nth-of-type(2n)  {
-  background-color: rgba(0, 0, 0, 0.1);
+
+main .bubble_container:nth-of-type(2n)  {
+  /*background-color: rgba(0, 0, 0, 0.1);*/
   transform: translateX(55%);
 }
 
 main .bubble .bubble_content {
   margin: 10px;
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 
 nav {
   width: 20%;
+  height: 20vw;
   position: absolute;
 
-
   background-color: rgba(0, 0, 0, 0.1);
-  border: 1px solid black;
+}
 
-
-  /* display: flex; */
-  /* justify-content: space-around; */
-  /* align-items: center; */
+nav .bubble_container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
 }
 
 footer {
-  position: "fixed";
   bottom: 0;
-  width: "100%";
+  width: 100%;
   text-align: center;
   margin-top: 50px;
   padding: 10px;
