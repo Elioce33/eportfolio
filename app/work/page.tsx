@@ -4,30 +4,18 @@ const lorem = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore 
 
 export default function Page() {
   return <>
-    <h1>Projects</h1>
+    <h1>Work Experiences</h1>
     <main>
-      <Bubble title="FTP client">
+      <Bubble title="Alternance BCD">
         <p>{lorem}</p>
       </Bubble>
-      <Bubble title="Modélisation 3D">
+      <Bubble title="CDD BCD">
         <p>{lorem}</p>
       </Bubble>
-      <Bubble title="Serveur Web">
+      <Bubble title="Stage BCD">
         <p>{lorem}</p>
       </Bubble>
-      <Bubble title="Site web utilisation d'API">
-        <p>{lorem}</p>
-      </Bubble>
-      <Bubble title="Système expert">
-        <p>{lorem}</p>
-      </Bubble>
-      <Bubble title="Application Web de gestion de base de donnée">
-        <p>{lorem}</p>
-      </Bubble>
-      <Bubble title="Site d'upload de fichier">
-        <p>{lorem}</p>
-      </Bubble>
-      <Bubble title="DebtSwapper">
+      <Bubble title="Stage Sarbacane">
         <p>{lorem}</p>
       </Bubble>
     </main>

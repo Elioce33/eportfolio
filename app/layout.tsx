@@ -1,16 +1,18 @@
 import './globals.css'
 import React from "react";
 
-import {Nav} from "@/app/nav";
+import {Nav} from "@/app/components/nav";
+import {Footer} from "@/app/components/footer";
 
-export default function RootLayout({children}: {
-    children: React.ReactNode
+export default function RootLayout(props: {
+    children: React.ReactNode,
 }) {
     return (
         <html lang="en">
         <body>
-            <Nav/>
-            {children}
+            <Nav />
+            {props.children}
+            <Footer />
         </body>
         </html>
     )
