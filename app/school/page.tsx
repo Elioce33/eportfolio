@@ -1,19 +1,23 @@
 import {Bubble} from "@/app/components/bubble";
 
-const lorem = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sapiente delectus asperiores obcaecati hic exercitationem culpa temporibus debitis nisi voluptatem, possimus perferendis molestiae accusamus ad! Illo debitis inventore provident fugiat?";
-
 export default function Page() {
   return <>
     <h1>School Career</h1>
-    <main>
+    <main className="school">
       <Bubble title="Licence Pro DA2I">
-        <p>{lorem}</p>
+        <p>Année obtention: 2023</p>
+        <p>École: Université de Lille, Villeneuve d'Asq</p>
+        <p>Mention: bien</p>
       </Bubble>
       <Bubble title="DUT Informatique">
-        <p>{lorem}</p>
+        <p>Année obtention: 2022</p>
+        <p>École: Université de Lille, Villeneuve d'Asq</p>
       </Bubble>
       <Bubble title="Bac STI2D">
-        <p>{lorem}</p>
+        <p>Année obtention: 2018</p>
+        <p>École: Lycée César Baggio, Lille</p>
+        <p>Mention: bien</p>
+        <p>Option: SIN <i>(Systèmes d'Information et Numérique)</i></p>
       </Bubble>
     </main>
   </>

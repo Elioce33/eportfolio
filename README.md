@@ -80,22 +80,27 @@ This is a simple web page to store my CV and some information about my projects 
 **Client FTP**
   - Java
   - https://gitlab.univ-lille.fr/christopher.pottier.etu/projet-reseaux-collin-pottier
+  - https://gitlab.com/cours-dut-info/projects/ftp-client-java
 
 **Modélisation 3D**
   - Java
   - https://gitlab.univ-lille.fr/2021-projet-modelisation/projetmodeg1
+  - https://gitlab.com/cours-dut-info/projects/java-3d-modelization
 
 **serveur web**
   - C/HTTP
   - https://gitlab.univ-lille.fr/etu/2021-2022/m4101c/g-collin-paree
+  - https://gitlab.com/cours-dut-info/projects/server-http
 
 **Site web utilisation d'API**
   - Javascript
   - https://gitlab.univ-lille.fr/eliott.collin.etu/projet_2022_boussert_almeida_collin
+  - https://gitlab.com/cours-dut-info/projects/just-series
 
 **Système expert**
   - Java 
   - https://gitlab.univ-lille.fr/eliott.collin.etu/systeme-expert
+  - https://gitlab.com/cours-dut-info/projects/system-expert
 
 **Application Web de gestion de base de donnée**
   - Java/postgresql/h2 

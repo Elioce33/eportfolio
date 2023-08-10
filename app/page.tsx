@@ -1,17 +1,18 @@
 import {Bubble} from "@/app/components/bubble";
 
-const lorem = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sapiente delectus asperiores obcaecati hic exercitationem culpa temporibus debitis nisi voluptatem, possimus perferendis molestiae accusamus ad! Illo debitis inventore provident fugiat?";
-
 export default function Page() {
   return <>
     <Bubble className='presentation_bubble' title="About">
       <div>
-        Information :
+        Informations
         <ul>
           <li>Prénom : Eliott</li>
           <li>Nom: Collin</li>
           <li>Age: 18 ans</li>
         </ul>
+      </div>
+      <div>
+        <p>Je suis un jeune développeur à la recherche de nouveaux projets. J'aime apprendre et la bonne humeur !</p>
       </div>
     </Bubble>
     <h1>Eliott Collin</h1>
