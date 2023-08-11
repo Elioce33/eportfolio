@@ -20,6 +20,13 @@ This is a simple web page to store my CV and some information about my projects 
   - X page par diplômes
 
 
+# Development source and tutorial :
+
+- créer un service systemd : https://doc.ubuntu-fr.org/creer_un_service_avec_systemd
+- afficher les logs journalctl : https://www.linuxtricks.fr/wiki/systemd-utiliser-journalctl-les-logs-de-systemd
+- nninx configuration to redirect domain to localhost app : https://eladnava.com/binding-nodejs-port-80-using-nginx/
+
+
 # Content
 
 ## School career
