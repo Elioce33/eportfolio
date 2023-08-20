@@ -15,16 +15,18 @@ This is a simple web page to store my CV and some information about my projects 
 - Débuté un projet React/Next ? (pour le site)
   - 1 page d'accueil (gros résumé projet/expériences/techno + download CV)
   - 1 page sur les connaissances
-  - X page / projets
+  - X page par projets
   - X page par entreprises
   - X page par diplômes
 
+- Base de données pour stoker les donnée (projet/connaissances/entreprises/diplômes) ==> site dynamique
 
 # Development source and tutorial :
 
 - créer un service systemd : https://doc.ubuntu-fr.org/creer_un_service_avec_systemd
 - afficher les logs journalctl : https://www.linuxtricks.fr/wiki/systemd-utiliser-journalctl-les-logs-de-systemd
-- nninx configuration to redirect domain to localhost app : https://eladnava.com/binding-nodejs-port-80-using-nginx/
+- nginx configuration to redirect domain to localhost app : https://eladnava.com/binding-nodejs-port-80-using-nginx/
+- add new user : https://dev.to/atosh502/create-separate-users-in-linux-for-running-applications-4c4o
 
 
 # Content
