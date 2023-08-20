@@ -10,7 +10,7 @@ export function Bubble({className = "", title, information_links, children}: any
                 {children}
                 <br/>
                 {information_links && information_links.map(
-                    (link: Link) => <BubbleLink link={link}/>
+                    (link: Link, index: number) => <BubbleLink key={index} link={link}/>
                 )}
             </div>
         </div>
