@@ -1,0 +1,56 @@
+{
+  "certificates": [
+    {
+      "degree": "Licence pro DA2I",
+      "full_name": "Licence professionnelle Développement d'Applications Intranet/Internet",
+      "short_name": "LP DA2I",
+      "mention": "Bien",
+      "description": "Formation faite en alternance dasn l'entreprise BetterCallDave. Durant cette année j'ai appris beaucoup de chose que ce soit en entreprise ou à l'école. Nous avons eu des cours sur les technologies web, les bases de données, la gestion de projet et bien d'autres.",
+      "dates": {
+        "start": "2019",
+        "end": "2022"
+      },
+      "url": "https://www.iut-a.univ-lille.fr/dut-info/",
+      "school_slug": "iut-a-lille"
+    },
+    {
+      "degree": "DUT Informatique",
+      "full_name": "Diplôme Universitaire de Technologie Informatique",
+      "short_name": "DUT Info",
+      "mention": "",
+      "description": "Le DUT informatique est une formation qui se fait en 2 ans, j'ai eu la chance de pouvoir la faire en 3 ans (redoublement), j'ai réalisé mes stages de seconde année dans les entreprises Sarbacane Software et BetterCallDave. J'ai appris plusieurs langages comme le Java, le JavaScript  et le langage C. J'ai aussi réalisé beaucoup de projet.",
+      "dates": {
+        "start": "2019",
+        "end": "2022"
+      },
+      "url": "https://www.iut-a.univ-lille.fr/lp-da2i/",
+      "school_slug": "iut-a-lille"
+    },
+    {
+      "degree": "Bac STI2D",
+      "full_name": "Baccalauréat Sciences et Technologies de l'Industrie et du Développement Durable",
+      "short_name": "Bac STI2D",
+      "mention": "Bien",
+      "description": "Je suis fière d'avoir réussi à avoir une mention Bien au bac. Cette formation m'a permis de me découvrir et de me préparer pour les études supérieures.",
+      "dates": {
+        "start": "2016",
+        "end": "2019"
+      },
+      "school_slug": "lycee-cesar-baggio"
+    }
+  ],
+  "schools": [
+    {
+      "slug": "iut-a-lille",
+      "name": "IUT A de Lille",
+      "address": "Av. Paul Langevin, 59653 Villeneuve-d'Ascq",
+      "url": "https://www.iut-a.univ-lille.fr/"
+    },
+    {
+      "slug": "lycee-cesar-baggio",
+      "name": "Lycée César Baggio",
+      "address": "332 Bd d'Alsace, 59000 Lille",
+      "url": "https://cesarbaggio.fr/"
+    }
+  ]
+}
