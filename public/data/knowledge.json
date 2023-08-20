@@ -1,0 +1,224 @@
+{
+  "knowledge": [
+    {
+      "name": "Java",
+      "slug": "java",
+      "description": "",
+      "knowledge_level": 0,
+      "type": "language",
+      "framework": [
+        {
+          "name": "Spring Boot",
+          "slug": "spring-boot",
+          "description": "",
+          "knowledge_level": 0,
+          "type": "framework",
+          "language": "Java"
+        },
+        {
+          "name": "JEE",
+          "slug": "jee",
+          "description": "",
+          "knowledge_level": 0,
+          "type": "framework",
+          "language": "Java"
+        }
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "slug": "javascript",
+      "description": "",
+      "knowledge_level": 0,
+      "type": "language",
+      "framework": [
+        {
+          "name": "Node.js",
+          "slug": "nodejs",
+          "description": "",
+          "knowledge_level": 0,
+          "type": "framework",
+          "language": "JavaScript"
+        },
+        {
+          "name": "Express.js",
+          "slug": "expressjs",
+          "description": "",
+          "knowledge_level": 0,
+          "type": "framework",
+          "language": "JavaScript"
+        }
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "slug": "typescript",
+      "description": "",
+      "knowledge_level": 0,
+      "type": "language"
+    },
+    {
+      "name": "Python",
+      "slug": "python",
+      "description": "",
+      "knowledge_level": 0,
+      "type": "language"
+    },
+    {
+      "name": "C++",
+      "slug": "cpp",
+      "description": "",
+      "knowledge_level": 0,
+      "type": "language"
+    },
+    {
+      "name": "C",
+      "slug": "c",
+      "description": "",
+      "knowledge_level": 0,
+      "type": "language"
+    },
+    {
+      "name": "SQL",
+      "slug": "sql",
+      "description": "",
+      "knowledge_level": 0,
+      "type": "language",
+      "database": [
+        "PostgreSQL",
+        "MySQL",
+        "SQLite"
+      ]
+    }
+  ],
+
+
+  "languages": [
+    {
+      "name": "Java",
+      "description": "",
+      "knowledge_level": 0,
+      "framework": [
+        "Spring",
+        "Spring Boot",
+        "JEE"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "description": "",
+      "knowledge_level": 0,
+      "framework": [
+        "Node.js",
+        "Express.js"
+      ]
+    },
+    {
+      "name": "Python",
+      "description": "",
+      "knowledge_level": 0,
+      "framework": [
+        ".py"
+      ]
+    },
+    {
+      "name": "C++",
+      "description": "",
+      "knowledge_level": 0,
+      "framework": [
+        ".cpp",
+        ".hpp"
+      ]
+    },
+    {
+      "name": "C",
+      "description": "",
+      "knowledge_level": 0,
+      "framework": [
+        ".c",
+        ".h"
+      ]
+    },
+    {
+      "name": "SQL",
+      "description": "",
+      "knowledge_level": 0,
+      "framework": [
+        ".sql"
+      ]
+    }
+  ],
+  "database": [
+    {
+      "name": "PostgreSQL",
+      "description": "",
+      "knowledge_level": 0
+    },
+    {
+      "name": "MySQL",
+      "description": "",
+      "knowledge_level": 0
+    },
+    {
+      "name": "SQLite",
+      "description": "",
+      "knowledge_level": 0
+    },
+    {
+      "name": "MongoDB",
+      "description": "",
+      "knowledge_level": 0
+    }
+  ],
+  "tools": {
+    "ide": [
+      {
+        "name": "Eclipse",
+        "description": "",
+        "knowledge_level": 0
+      },
+      {
+        "name": "IntelliJ",
+        "description": "",
+        "knowledge_level": 0
+      },
+      {
+        "name": "Visual Studio Code",
+        "description": "",
+        "knowledge_level": 0
+      },
+      {
+        "name": "Android Studio",
+        "description": "",
+        "knowledge_level": 0
+      }
+    ],
+    "other": [
+      {
+        "name": "Git",
+        "description": "",
+        "knowledge_level": 0
+      },
+      {
+        "name": "Docker",
+        "description": "",
+        "knowledge_level": 0
+      },
+      {
+        "name": "Jira",
+        "description": "",
+        "knowledge_level": 0
+      },
+      {
+        "name": "Confluence",
+        "description": "",
+        "knowledge_level": 0
+      },
+      {
+        "name": "Postman",
+        "description": "",
+        "knowledge_level": 0
+      }
+    ]
+  }
+}

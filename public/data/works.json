@@ -1,0 +1,49 @@
+{
+  "description": "A list of my professional experiences.",
+  "works": [
+    {
+      "company": "Sarbacane Software",
+      "position": "Parc d'activités des 4 vents - 3 avenue Antoine Pinay",
+      "location": "Hem, France",
+      "contracts": [
+        {
+          "name": "Stage DUT Informatique",
+          "job": "Développeur",
+          "duration": "April 2022 - June 2021",
+          "description": "Stage de fin d'études de DUT Informatique",
+          "projects": []
+        }
+      ],
+        "company_url": "https://sarbacane.com"
+    },
+    {
+      "company": "BetterCallDave",
+      "position": "Central Gare, 25 av. Charge Saint-Venant 3eme étage",
+      "location": "Lille, France",
+      "contracts": [
+        {
+          "name": "Stage DUT Informatique",
+          "job": "Développeur Backend",
+          "duration": "April 2022 - June 2022",
+          "description": "Stage de fin d'études de DUT Informatique",
+          "projects": []
+        },
+        {
+          "name": "CDD",
+          "job": "Développeur Backend",
+          "duration": "July 2022 - August 2022",
+          "description": "",
+          "projects": []
+        },
+        {
+          "name": "Alternance DA2I",
+          "job": "Développeur Backend",
+          "duration": "September 2022 - August 2023",
+          "description": "Alternance de 1 an dans le cadre de la licence DA2I",
+          "projects": []
+        }
+      ],
+      "company_url": "https://bettercalldave.com"
+    }
+  ]
+}

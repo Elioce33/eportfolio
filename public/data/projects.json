@@ -1,0 +1,161 @@
+{
+  "projects": [
+    {
+      "name": "Client FTP",
+      "slug": "client-ftp",
+      "description": "Client FTP développé en JAVA avec une interface en ligne de commandes",
+      "languages": [
+        "Java"
+      ],
+      "technologies": [
+        "Socket"
+      ],
+      "links": [
+        {
+          "name": "Gitlab",
+          "url": "https://gitlab.com/cours-dut-info/projects/ftp-client-java"
+        }
+      ]
+    },
+    {
+      "name": "Modélisation 3D",
+      "slug": "modelisation-3d",
+      "description": "Logiciel de modélisation 3D, il est possible de lire des fichier .ply et afficher les objets 3D.",
+      "languages": [
+        "Java"
+      ],
+      "technologies": [
+        "JavaFX"
+      ],
+      "links": [
+        {
+          "name": "Gitlab",
+          "url": "https://gitlab.com/cours-dut-info/projects/java-3d-modelization"
+        }
+      ]
+    },
+    {
+      "name": "Serveur HTTP",
+      "slug": "http-server",
+      "description": "Serveur web respectant le protocole HTTP/1.1",
+      "languages": [
+        "C (Language)"
+      ],
+      "technologies": [
+        "Socket"
+      ],
+      "links": [
+        {
+          "name": "Gitlab",
+          "url": "https://gitlab.com/cours-dut-info/projects/server-http"
+        }
+      ]
+    },
+    {
+      "name": "Just Series",
+      "slug": "just-series",
+      "description": "Site web qui utilise l'api <a href=\"https://www.tvmaze.com/\">tvmaze</a> pour afficher des séries. Il est possible de faire des recherche et d'ajouter certaines séries dans nos favoris (localement)",
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "technologies": [
+        "NodeJS",
+        "MazeTV API"
+      ],
+      "links": [
+        {
+          "name": "Gitlab",
+          "url": "https://gitlab.com/cours-dut-info/projects/just-series"
+        },
+        {
+          "name": "Site web",
+          "url": "http://justseries.fishcorp.fr"
+        }
+      ]
+    },
+    {
+      "name": "Système expert",
+      "slug": "systeme-expert",
+      "description": "Un système expert est un outil capable de reproduire les mécanismes cognitifs d'un expert, dans un domaine particulier. Il s'agit de l'une des voies tentant d'aboutir à l'intelligence artificielle.",
+      "languages": [
+        "Java"
+      ],
+      "technologies": [],
+      "links": [
+        {
+          "name": "Gitlab",
+          "url": "https://gitlab.com/cours-dut-info/projects/system-expert"
+        }
+      ]
+    },
+    {
+      "name": "Gestionnaire de base de données",
+      "slug": "bdd_manager",
+      "description": "Le but de ce projet c'est de crée un site web qui permet d'afficher toute les table d'une base de donnée (H2/postgresql) et qui permet de faire les opératoin de base de SQL: Select, Update, Insert, Delete",
+      "languages": [
+        "Java",
+        "Servlet",
+        "JDBC"
+      ],
+      "technologies": [
+        "H2",
+        "PostgreSQL",
+        "Tomcat"
+      ],
+      "links": [
+        {
+          "name": "Gitlab",
+          "url": "https://gitlab.com/cours-lp-da2i/ld03-web-backend-bdd/web/projet03"
+        }
+      ]
+    },
+    {
+      "name": "Site d'upload de fichier",
+      "slug": "file-upload",
+      "description": "Le but de ce projet c'est de crée un site web qui permet d'uploader des fichiers sur un serveur et de les télécharger. Utilisation possible seulement avec un compte utilisateur.",
+      "languages": [
+        "Java/JEE",
+        "JDBC",
+        "JSP"
+      ],
+      "technologies": [
+        "H2",
+        "Tomcat"
+      ],
+      "links": [
+        {
+          "name": "Gitlab",
+          "url": "https://gitlab.com/cours-lp-da2i/ld03-web-backend-bdd/web/projet04"
+        }
+      ]
+    },
+    {
+      "name": "DebtSwapper",
+      "slug": "debt-swapper",
+      "description": "Réalisation d'un site de partage des dépenses (basé sur le fonctionnement de Tricount). <br/> Chaque utilisateur crée son compte et peut créer des événements",
+      "languages": [
+        "Java",
+        "JSP",
+        "JDBC"
+      ],
+      "technologies": [
+        "Spring Boot",
+        "Spring Security",
+        "PostgreSQL",
+        "H2"
+      ],
+      "links": [
+        {
+          "name": "Gitlab",
+          "url": "https://gitlab.com/cours-lp-da2i/ld03-web-backend-bdd/web/debt-swapper"
+        },
+        {
+          "name": "Site web",
+          "url": "https://debtswapper.fishcorp.fr"
+        }
+      ]
+    }
+  ]
+}
