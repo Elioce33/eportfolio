@@ -7,9 +7,9 @@ export function Nav() {
         <ul>
             <li><Link href="/">Home</Link></li>
             <li><Link href="/projects">Projects</Link></li>
-            <li><Link href="/school">School cLinkreer</Link></li>
-            <li><Link href="/work">Work experience</Link></li>
-            <li><Link href="/knowledge">Knowledge</Link></li>
+            <li><Link href="/school_career">School career</Link></li>
+            <li><Link href="/works">Work experience</Link></li>
+            <li><Link href="/knowledges">Knowledge</Link></li>
             <li><Link href="/hobbies">Hobbies</Link></li>
         </ul>
         </Bubble>

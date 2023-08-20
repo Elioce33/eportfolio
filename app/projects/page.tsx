@@ -36,7 +36,7 @@ const projectsItems = projects.map((project, index) => <BubbleProject key={index
 export default function Page() {
   return <>
     <h1>Projects</h1>
-    <main>
+    <main className="projects">
       {projectsItems}
     </main>
   </>
