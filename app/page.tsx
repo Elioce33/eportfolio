@@ -19,8 +19,8 @@ export default function Page() {
       </div>
     </Bubble>
     <h1>Eliott Collin</h1>
-    <main>
-      <Bubble title={<Link href="projects">Projects</Link>}>
+    <main className="home">
+      <Bubble className="projects" title={<Link href="projects">Projects</Link>}>
         <div>
           <p>Quelques projets sur les quels j'ai travaillé et dont je suis fière. La plus part sont des application web, et sont donc disponible en ligne !</p>
           <ul>
@@ -32,13 +32,13 @@ export default function Page() {
           </ul>
         </div>
       </Bubble>
-      <Bubble title={<Link href="school_career">School career</Link>}>
+      <Bubble className="schools" title={<Link href="school_career">School career</Link>}>
         <p>C'est grâce à l'école et l'université que j'ai appris beaucoup de chose. Au début je souhaité être développeur de jeux vidéos, et maintenant ce qui m'intéresse le plus est de développer des site web et des application de bureaux. [...]</p>
       </Bubble>
-      <Bubble title={<Link href="works">Work experience</Link>}>
+      <Bubble className="works" title={<Link href="works">Work experience</Link>}>
         <p>J'ai aussi beaucoup appris en travaillant au sain d'équipe de développeur durant mes éxpérience professionnels [...]</p>
       </Bubble>
-      <Bubble title={<Link href="hobbies">Hobbies</Link>}>
+      <Bubble className="hobbies" title={<Link href="hobbies">Hobbies</Link>}>
         <p>Ce qui caractérise quelqu'un c'est aussi ce qu'il aime faire. [...]</p>
       </Bubble>
     </main>
