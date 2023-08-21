@@ -1,4 +1,5 @@
 import {Bubble} from "@/app/components/bubble";
+import Link from "next/link";
 
 export default function Page() {
   return <>
@@ -19,25 +20,25 @@ export default function Page() {
     </Bubble>
     <h1>Eliott Collin</h1>
     <main>
-      <Bubble title="Projects" information_links={[{href: "projects"}]}>
+      <Bubble title={<Link href="projects">Projects</Link>}>
         <div>
-          <p>Je vous présenterais quelques projets sur les quels j'ai travaillé et dont je suis fière.</p>
+          <p>Quelques projets sur les quels j'ai travaillé et dont je suis fière. La plus part sont des application web, et sont donc disponible en ligne !</p>
           <ul>
-            <li>Client FTP</li>
-            <li>Modélisation 3D</li>
-            <li>Serveur web</li>
-            <li>Site web avec utilisation d'API externe</li>
+            <li><Link href="projects/client-ftp">Client FTP en Java</Link></li>
+            <li><Link href="projects/modelisation-3d">Modélisation 3D</Link></li>
+            <li><Link href="projects/http-server">Serveur web</Link></li>
+            <li><Link href="projects/just-series">Site web avec utilisation d'API externe</Link></li>
             <li>[...]</li>
           </ul>
         </div>
       </Bubble>
-      <Bubble title="School career" information_links={[{href: "school"}]}>
+      <Bubble title={<Link href="school_career">School career</Link>}>
         <p>C'est grâce à l'école et l'université que j'ai appris beaucoup de chose. Au début je souhaité être développeur de jeux vidéos, et maintenant ce qui m'intéresse le plus est de développer des site web et des application de bureaux. [...]</p>
       </Bubble>
-      <Bubble title="Work experience" information_links={[{href:"work"}]}>
+      <Bubble title={<Link href="works">Work experience</Link>}>
         <p>J'ai aussi beaucoup appris en travaillant au sain d'équipe de développeur durant mes éxpérience professionnels [...]</p>
       </Bubble>
-      <Bubble title="Hobbies" information_links={[{href:"hobbies"}]}>
+      <Bubble title={<Link href="hobbies">Hobbies</Link>}>
         <p>Ce qui caractérise quelqu'un c'est aussi ce qu'il aime faire. [...]</p>
       </Bubble>
     </main>
