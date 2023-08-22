@@ -1,4 +1,4 @@
-import {Bubble} from "@/app/components/bubble";
+import {Bubble} from "@/components/bubble";
 import {certificates, schools} from "./school_career.json";
 
 

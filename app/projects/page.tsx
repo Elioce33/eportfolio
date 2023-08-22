@@ -1,6 +1,6 @@
-import {Bubble, BubbleProject} from "@/app/components/bubble";
+import {Bubble, BubbleProject} from "@/components/bubble";
 import {projects} from "./projects.json";
-import {Project} from "@/app/types";
+import {Project} from "@/types";
 
 const projectsItems = projects.map((project: Project, index: number) => {
   const position = Math.floor(Math.random() * 4 + 1);

@@ -1,4 +1,4 @@
-import {Bubble} from "@/app/components/bubble";
+import {Bubble} from "@/components/bubble";
 import Link from "next/link";
 
 export default function Page() {
@@ -7,7 +7,7 @@ export default function Page() {
       <div>
         <div>
           Informations
-          <ul>
+          <ul className="list-disc list-inside">
             <li>Prénom : Eliott</li>
             <li>Nom: Collin</li>
             <li>Age: 18 ans</li>
@@ -23,7 +23,7 @@ export default function Page() {
       <Bubble className="projects" title={<Link href="projects">Projects</Link>}>
         <div>
           <p>Quelques projets sur les quels j'ai travaillé et dont je suis fière. La plus part sont des application web, et sont donc disponible en ligne !</p>
-          <ul>
+          <ul className="list-disc list-inside">
             <li><Link href="projects/client-ftp">Client FTP en Java</Link></li>
             <li><Link href="projects/modelisation-3d">Modélisation 3D</Link></li>
             <li><Link href="projects/http-server">Serveur web</Link></li>

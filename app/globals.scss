@@ -1,6 +1,6 @@
-/*@tailwind base;*/
-/*@tailwind components;*/
-/*@tailwind utilities;*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /*:root {
   --foreground-rgb: 0, 0, 0;
@@ -82,99 +82,21 @@ main {
   width: 85%;
   border: 2px dashed black;
 
+  .bubble_container {
+    width: 25vw;
+    height: 25vw;
+  }
+
   .bubble .bubble_content {
     margin: 10px;
   }
-
-  .bubble_container {
-    margin: 0 auto;
-    &.bubble_size_1 {
-      width: 15vw;
-      height: 15vw;
-      &.bubble_position_1 {
-        transform: translateX(-220%);
-      }
-      &.bubble_position_2 {
-        transform: translateX(-110%);
-      }
-      &.bubble_position_3 {
-        transform: translateX(0);
-      }
-      &.bubble_position_4 {
-        transform: translateX(110%);
-      }
-      &.bubble_position_5 {
-        transform: translateX(220%);
-      }
-    }
-    &.bubble_size_2 {
-      width: 25vw;
-      height: 25vw;
-      &.bubble_position_1 {
-        transform: translateX(-110%);
-      }
-      &.bubble_position_2 {
-        transform: translateX(-60%);
-      }
-      &.bubble_position_3 {
-        transform: translateX(0);
-      }
-      &.bubble_position_4 {
-        transform: translateX(60%);
-      }
-      &.bubble_position_5 {
-        transform: translateX(110%);
-      }
-    }
-    &.bubble_size_3 {
-      width: 35vw;
-      height: 35vw;
-      &.bubble_position_1 {
-        transform: translateX(-70%);
-      }
-      &.bubble_position_2 {
-        transform: translateX(-35%);
-      }
-      &.bubble_position_3 {
-        transform: translateX(0);
-      }
-      &.bubble_position_4 {
-        transform: translateX(35%);
-      }
-      &.bubble_position_5 {
-        transform: translateX(70%);
-      }
-    }
-  }
 }
 
-main.home {
-  .bubble_container {
-
-    transform: unset;
-    margin: 0 auto;
-
-    &.projects {
-      width: 15vw;
-      height: 15vw;
-    }
-
-    &.schools {
-      width: 15vw;
-      height: 15vw;
-    }
-
-    &.works {
-      width: 15vw;
-      height: 15vw;
-    }
-
-    &.hobbies {
-      width: 15vw;
-      height: 15vw;
-    }
-  }
-}
+//main.home {
+//  .bubble_container {
+//    margin: 0 auto;
+//  }
+//}
 
 
 

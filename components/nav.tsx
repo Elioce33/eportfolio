@@ -1,5 +1,5 @@
 import Link from "next/link";
-import {Bubble} from "@/app/components/bubble";
+import {Bubble} from "@/components/bubble";
 
 export function Nav() {
     return <nav>
