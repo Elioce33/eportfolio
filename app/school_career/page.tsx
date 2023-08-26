@@ -1,5 +1,5 @@
-import {ArticleSchool} from "@/components/article.school";
-import {ArticleCertificate} from "@components/article.certificate";
+import {ArticleSchool} from "@components/Article/ArticleSchool/ArticleSchool";
+import {ArticleCertificate} from "@components/Article/ArticleCertificate/ArticleCertificate";
 import {certificates, schools} from "./school_career.json";
 
 

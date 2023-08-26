@@ -1,5 +1,6 @@
-import {Article} from "@/components/article";
+import {Article} from "@components/Article/Article";
 import Link from "next/link";
+import styles from './ArticleProject.module.css';
 
 export function ArticleProject({className = "", children, project}: any) {
   const {name, slug, description, languages, technologies, links} = project;
@@ -15,15 +16,15 @@ export function ArticleProject({className = "", children, project}: any) {
 
     <p>{description}</p>
 
-    <div className="project_tools row">
-      <div className="languages col">
-        {languages.length > 0 && <div className="content h-100">
+    <div className={`${styles.project_tools} row`}>
+      <div className={`${styles.languages} col`}>
+        {languages.length > 0 && <div className={`${styles.content} h-100`}>
             <h3>Language</h3>
             <ul>{languagesItems}</ul>
         </div>}
       </div>
-      <div className="technologies col">
-        {technologies.length > 0 && <div className="content h-100">
+      <div className={`${styles.technologies} col`}>
+        {technologies.length > 0 && <div className={`${styles.content} h-100`}>
             <h3>Technologies</h3>
             <ul>{technologiesItems}</ul>
         </div>}

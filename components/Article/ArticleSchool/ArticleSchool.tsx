@@ -1,4 +1,4 @@
-import {Article} from "@/components/article";
+import {Article} from "@components/Article/Article";
 import Link from "next/link";
 
 

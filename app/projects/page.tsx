@@ -1,4 +1,4 @@
-import {ArticleProject} from "@/components/article.project";
+import {ArticleProject} from "@components/Article/ArticleProject/ArticleProject";
 import {projects} from "./projects.json";
 import {Project} from "@/types";
 
