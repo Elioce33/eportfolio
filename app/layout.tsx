@@ -3,6 +3,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css'
 import './globals.scss'
 import '@styles/article.css'
+import '@styles/article.project.css'
 
 import {Nav} from "@/components/nav";
 import {Footer} from "@/components/footer";

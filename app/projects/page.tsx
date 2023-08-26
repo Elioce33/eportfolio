@@ -1,10 +1,9 @@
-import {Bubble, BubbleProject} from "@/components/bubble";
+import {ArticleProject} from "@/components/article.project";
 import {projects} from "./projects.json";
 import {Project} from "@/types";
 
 const projectsItems = projects.map((project: Project, index: number) => {
-  const position = Math.floor(Math.random() * 4 + 1);
-  return <BubbleProject key={index} project={project} display_option={{size: 2, position}}/>
+  return <ArticleProject key={index} project={project} />
 });
 
 export default function Page() {
