@@ -1,4 +1,5 @@
 import {Bubble} from "@/components/bubble";
+import {Article} from "@/components/article";
 import Link from "next/link";
 
 export default function Page() {
@@ -20,10 +21,11 @@ export default function Page() {
     </Bubble>
     <h1>Eliott Collin</h1>
     <main className="home">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row row-cols-2">
           <div className="col">
-            <Bubble className="projects mx-auto" title={<Link href="projects">Projects</Link>}>
+            <Article className="projects h-100">
+              <h2><Link href="projects">Projects</Link></h2>
               <div>
                 <p>Quelques projets sur les quels j'ai travaillé et dont je suis fière. La plus part sont des application web, et sont donc disponible en ligne !</p>
                 <ul className="list-disc list-inside">
@@ -34,22 +36,25 @@ export default function Page() {
                   <li>[...]</li>
                 </ul>
               </div>
-            </Bubble>
+            </Article>
           </div>
           <div className="col">
-            <Bubble className="schools mx-auto" title={<Link href="school_career">School career</Link>}>
+            <Article className="schools h-100">
+              <h2><Link href="school_career">School career</Link></h2>
               <p>C'est grâce à l'école et l'université que j'ai appris beaucoup de chose. Au début je souhaité être développeur de jeux vidéos, et maintenant ce qui m'intéresse le plus est de développer des site web et des application de bureaux. [...]</p>
-            </Bubble>
+            </Article>
           </div>
           <div className="col">
-            <Bubble className="works mx-auto" title={<Link href="works">Work experience</Link>}>
+            <Article className="works h-100">
+              <h2><Link href="works">Work experience</Link></h2>
               <p>J'ai aussi beaucoup appris en travaillant au sain d'équipe de développeur durant mes éxpérience professionnels [...]</p>
-            </Bubble>
+            </Article>
           </div>
           <div className="col">
-            <Bubble className="hobbies mx-auto" title={<Link href="hobbies">Hobbies</Link>}>
+            <Article className="hobbies h-100">
+              <h2><Link href="hobbies">Hobbies</Link></h2>
               <p>Ce qui caractérise quelqu'un c'est aussi ce qu'il aime faire. [...]</p>
-            </Bubble>
+            </Article>
           </div>
         </div>
       </div>

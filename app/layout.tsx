@@ -2,7 +2,7 @@ import React from "react";
 
 import 'bootstrap/dist/css/bootstrap.css'
 import './globals.scss'
-import '@styles/bubble_text.css'
+import '@styles/article.css'
 
 import {Nav} from "@/components/nav";
 import {Footer} from "@/components/footer";
