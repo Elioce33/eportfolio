@@ -20,27 +20,39 @@ export default function Page() {
     </Bubble>
     <h1>Eliott Collin</h1>
     <main className="home">
-      <Bubble className="projects" title={<Link href="projects">Projects</Link>}>
-        <div>
-          <p>Quelques projets sur les quels j'ai travaillé et dont je suis fière. La plus part sont des application web, et sont donc disponible en ligne !</p>
-          <ul className="list-disc list-inside">
-            <li><Link href="projects/client-ftp">Client FTP en Java</Link></li>
-            <li><Link href="projects/modelisation-3d">Modélisation 3D</Link></li>
-            <li><Link href="projects/http-server">Serveur web</Link></li>
-            <li><Link href="projects/just-series">Site web avec utilisation d'API externe</Link></li>
-            <li>[...]</li>
-          </ul>
+      <div className="container">
+        <div className="row row-cols-2">
+          <div className="col">
+            <Bubble className="projects mx-auto" title={<Link href="projects">Projects</Link>}>
+              <div>
+                <p>Quelques projets sur les quels j'ai travaillé et dont je suis fière. La plus part sont des application web, et sont donc disponible en ligne !</p>
+                <ul className="list-disc list-inside">
+                  <li><Link href="projects/client-ftp">Client FTP en Java</Link></li>
+                  <li><Link href="projects/modelisation-3d">Modélisation 3D</Link></li>
+                  <li><Link href="projects/http-server">Serveur web</Link></li>
+                  <li><Link href="projects/just-series">Site web avec utilisation d'API externe</Link></li>
+                  <li>[...]</li>
+                </ul>
+              </div>
+            </Bubble>
+          </div>
+          <div className="col">
+            <Bubble className="schools mx-auto" title={<Link href="school_career">School career</Link>}>
+              <p>C'est grâce à l'école et l'université que j'ai appris beaucoup de chose. Au début je souhaité être développeur de jeux vidéos, et maintenant ce qui m'intéresse le plus est de développer des site web et des application de bureaux. [...]</p>
+            </Bubble>
+          </div>
+          <div className="col">
+            <Bubble className="works mx-auto" title={<Link href="works">Work experience</Link>}>
+              <p>J'ai aussi beaucoup appris en travaillant au sain d'équipe de développeur durant mes éxpérience professionnels [...]</p>
+            </Bubble>
+          </div>
+          <div className="col">
+            <Bubble className="hobbies mx-auto" title={<Link href="hobbies">Hobbies</Link>}>
+              <p>Ce qui caractérise quelqu'un c'est aussi ce qu'il aime faire. [...]</p>
+            </Bubble>
+          </div>
         </div>
-      </Bubble>
-      <Bubble className="schools" title={<Link href="school_career">School career</Link>}>
-        <p>C'est grâce à l'école et l'université que j'ai appris beaucoup de chose. Au début je souhaité être développeur de jeux vidéos, et maintenant ce qui m'intéresse le plus est de développer des site web et des application de bureaux. [...]</p>
-      </Bubble>
-      <Bubble className="works" title={<Link href="works">Work experience</Link>}>
-        <p>J'ai aussi beaucoup appris en travaillant au sain d'équipe de développeur durant mes éxpérience professionnels [...]</p>
-      </Bubble>
-      <Bubble className="hobbies" title={<Link href="hobbies">Hobbies</Link>}>
-        <p>Ce qui caractérise quelqu'un c'est aussi ce qu'il aime faire. [...]</p>
-      </Bubble>
+      </div>
     </main>
   </>
 }
