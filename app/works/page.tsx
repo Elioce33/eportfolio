@@ -1,23 +1,16 @@
-import {Bubble} from "@/components/bubble";
+import {ArticleCompany} from "@/components/Article/ArticleCompany/ArticleCompany";
+import {description, companies} from "./works.json";
 
-const lorem = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore sapiente delectus asperiores obcaecati hic exercitationem culpa temporibus debitis nisi voluptatem, possimus perferendis molestiae accusamus ad! Illo debitis inventore provident fugiat?";
+const worksItems = companies.map((company, idx) => {
+  return <ArticleCompany key={idx} company={company} />
+});
 
 export default function Page() {
   return <>
     <h1>Work Experiences</h1>
     <main>
-      <Bubble title="Alternance BCD">
-        <p>{lorem}</p>
-      </Bubble>
-      <Bubble title="CDD BCD">
-        <p>{lorem}</p>
-      </Bubble>
-      <Bubble title="Stage BCD">
-        <p>{lorem}</p>
-      </Bubble>
-      <Bubble title="Stage Sarbacane">
-        <p>{lorem}</p>
-      </Bubble>
+      <p>{description}</p>
+      {worksItems}
     </main>
   </>
 }

@@ -1,49 +1,107 @@
 {
   "description": "A list of my professional experiences.",
-  "works": [
+  "companies": [
     {
-      "company": "Sarbacane Software",
-      "position": "Parc d'activités des 4 vents - 3 avenue Antoine Pinay",
-      "location": "Hem, France",
+      "name": "BetterCallDave",
+      "short_name": "BCD",
+      "slug": "bettercalldave",
+      "description": "BetterCallDave est une entreprise française spécialisée dans le développement web et mobile.",
+      "address": "Central Gare, 25 av. Charge Saint-Venant 3eme étage, Lille, France",
       "contracts": [
         {
-          "name": "Stage DUT Informatique",
-          "job": "Développeur",
-          "duration": "April 2022 - June 2021",
-          "description": "Stage de fin d'études de DUT Informatique",
-          "projects": []
-        }
-      ],
-        "company_url": "https://sarbacane.com"
-    },
-    {
-      "company": "BetterCallDave",
-      "position": "Central Gare, 25 av. Charge Saint-Venant 3eme étage",
-      "location": "Lille, France",
-      "contracts": [
-        {
-          "name": "Stage DUT Informatique",
+          "name": "Alternance DA2I",
           "job": "Développeur Backend",
-          "duration": "April 2022 - June 2022",
-          "description": "Stage de fin d'études de DUT Informatique",
-          "projects": []
+          "duration": "1 ans",
+          "started_at": "2022-09-01",
+          "ended_at": "2023-08-31",
+          "description": "Alternance de 1 an dans le cadre de la licence DA2I",
+          "projects": [
+            {
+              "name": "Folloz",
+              "description": "",
+              "client": "WTP",
+              "url": ""
+            },
+            {
+              "name": "Click & Live",
+              "description": "",
+              "client": "Click & Live",
+              "url": ""
+            },
+            {
+              "name": "",
+              "description": "",
+              "client": "",
+              "url": ""
+            }
+          ]
         },
         {
           "name": "CDD",
           "job": "Développeur Backend",
-          "duration": "July 2022 - August 2022",
+          "duration": "2 mois",
+          "started_at": "2022-07-01",
+          "ended_at": "2022-08-31",
           "description": "",
-          "projects": []
+          "projects": [
+            {
+              "name": "Ubqieyes",
+              "description": "",
+              "client": "Ubiqeyes",
+              "url": ""
+            }
+          ]
         },
         {
-          "name": "Alternance DA2I",
+          "name": "Stage DUT Informatique",
           "job": "Développeur Backend",
-          "duration": "September 2022 - August 2023",
-          "description": "Alternance de 1 an dans le cadre de la licence DA2I",
-          "projects": []
+          "duration": "3 mois",
+          "started_at": "2022-04-01",
+          "ended_at": "2022-06-30",
+          "description": "Stage de fin d'études de DUT Informatique",
+          "projects": [
+            {
+              "name": "Open process",
+              "description": "",
+              "client": "Le Fresnoy",
+              "url": ""
+            },
+            {
+              "name": "Bot slack X github",
+              "description": "Développement d'un bot slack permettant d'afficher les différence entre deux version d'un dépôt github. Le bot est développé en NodeJS et utilise l'API de github.",
+              "client": "BetterCallDave",
+              "url": ""
+            }
+          ]
         }
       ],
       "company_url": "https://bettercalldave.com"
+    },
+    {
+      "name": "Sarbacane Software",
+      "short_name": "Sarbacane",
+      "slug": "sarbacane",
+      "description": "Sarbacane Software est une entreprise française spécialisée dans l'email marketing.",
+      "address": "Parc d'activités des 4 vents - 3 avenue Antoine Pinay, Hem, France",
+      "contracts": [
+        {
+          "name": "Stage DUT Informatique",
+          "job": "Développeur",
+          "duration": "3 mois",
+          "started_at": "2021-04-01",
+          "ended_at": "2021-06-30",
+          "description": "Stage de fin d'études de DUT Informatique",
+          "projects": [
+            {
+              "name": "",
+              "description": "",
+              "client": "",
+              "url": ""
+            }
+          ]
+        }
+      ],
+      "company_url": "https://sarbacane.com"
     }
   ]
 }
