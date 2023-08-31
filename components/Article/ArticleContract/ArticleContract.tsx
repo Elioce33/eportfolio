@@ -1,7 +1,8 @@
 import {Article} from "@components/Article/Article";
 
 function ProjectCard({project}: any) {
-  const {name, description, client} = project;
+  const {name, description, client, time} = project;
+  // may be use time to display "percentage" of work on the project"
   return <>
     <div className={"col-4 mx-auto"}>
       <div className={"card"}>

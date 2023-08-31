@@ -20,19 +20,22 @@
               "name": "Folloz",
               "description": "",
               "client": "WTP",
-              "url": ""
+              "url": "",
+              "time": "195h"
             },
             {
               "name": "Click & Live",
               "description": "",
               "client": "Click & Live",
-              "url": ""
+              "url": "",
+              "time": "312h"
             },
             {
-              "name": "",
+              "name": "Ubqieyes",
               "description": "",
-              "client": "",
-              "url": ""
+              "client": "Ubiqeyes",
+              "url": "",
+              "time": "135h"
             }
           ]
         },
@@ -48,7 +51,15 @@
               "name": "Ubqieyes",
               "description": "",
               "client": "Ubiqeyes",
-              "url": ""
+              "url": "",
+              "time": "182h"
+            },
+            {
+              "name": "Open process",
+              "description": "",
+              "client": "Le Fresnoy",
+              "url": "",
+              "time": "+160h"
             }
           ]
         },
@@ -60,12 +71,6 @@
           "ended_at": "2022-06-30",
           "description": "Stage de fin d'études de DUT Informatique",
           "projects": [
-            {
-              "name": "Open process",
-              "description": "",
-              "client": "Le Fresnoy",
-              "url": ""
-            },
             {
               "name": "Bot slack X github",
               "description": "Développement d'un bot slack permettant d'afficher les différence entre deux version d'un dépôt github. Le bot est développé en NodeJS et utilise l'API de github.",
