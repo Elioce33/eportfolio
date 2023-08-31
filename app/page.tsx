@@ -1,4 +1,4 @@
-import {Bubble} from "@/components/bubble";
+import {Bubble} from "@/components/Bubble";
 import {Article} from "@components/Article/Article";
 import Link from "next/link";
 

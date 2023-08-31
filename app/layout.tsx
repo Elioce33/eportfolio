@@ -1,12 +1,13 @@
 import React from "react";
 
 import 'bootstrap/dist/css/bootstrap.css'
-import './globals.scss'
 import '@components/Article/Article.module.css'
 import '@components/Article/ArticleProject/ArticleProject.module.css'
+import './globals.scss'
 
 import {Nav} from "@/components/nav";
 import {Footer} from "@/components/footer";
+import {Nav} from "@/components/Nav";
 
 
 export default function RootLayout(props: {

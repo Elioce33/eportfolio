@@ -1,9 +1,8 @@
 import Link from "next/link";
-import {Bubble} from "@/components/bubble";
+import {Bubble} from "@/components/Bubble";
 
-export function Nav() {
-    return <nav>
-        <Bubble title="Navigation">
+export function SiteMap() {
+    return <>
         <ul>
             <li><Link href="/">Home</Link></li>
             <li><Link href="/projects">Projects</Link></li>
@@ -13,6 +12,14 @@ export function Nav() {
             <li><Link href="/knowledges">Knowledge</Link></li>
             <li><Link href="/hobbies">Hobbies</Link></li>
         </ul>
+    </>
+}
+
+
+export function Nav() {
+    return <nav>
+        <Bubble title="Navigation">
+            <SiteMap />
         </Bubble>
     </nav>;
 }
