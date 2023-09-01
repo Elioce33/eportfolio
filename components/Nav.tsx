@@ -18,8 +18,7 @@ export function SiteMap() {
 
 export function Nav() {
     return <nav className={"navigation"}>
-        <Bubble title="Navigation">
+        <h2 className={"text-center"}>Navigation</h2>
             <SiteMap />
-        </Bubble>
     </nav>;
 }
