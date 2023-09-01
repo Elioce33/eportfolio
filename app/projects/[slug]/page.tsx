@@ -1,5 +1,6 @@
 import {projects} from "../projects.json";
 import Link from "next/link";
+import {LinkList} from "@components/LinkList";
 
 export default function Page({ params }: { params: { slug: string } }) {
   const project: any = projects.find((project) => project.slug === params.slug);
@@ -9,9 +10,15 @@ export default function Page({ params }: { params: { slug: string } }) {
   const technologiesItems = technologies.map((technology: string | {name: string, slug : string}, index: number) => <li key={index}>{typeof technology === "object" ? technology.name : technology}</li>);
   const linksItems = links.map(({url, name}: {url: string, name: string}, index: number) => <li key={index}><a href={url}>{name}</a></li>);
 
+  const projectLinkList = projects.map(({ name, slug }: { name: string, slug: string }) => ({label: name, slug: slug}));
+
 
   return <>
     <main className="project container-fuild p-3">
+      <nav className={"projectList"}>
+        <LinkList title={"Projects :"} baseLink={"/projects"} links={projectLinkList}/>
+      </nav>
+
       <h2>{name}</h2>
       <div className="description border-start border-2 border-dark ps-2">
         <p>{description}</p>
