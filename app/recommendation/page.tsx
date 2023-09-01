@@ -7,7 +7,6 @@ const quotesItems = recommendations.map((recommendation, idx) => {
 
 export default function Page() {
   return <>
-    <h1>My recommendations</h1>
     <main>
       {quotesItems}
     </main>

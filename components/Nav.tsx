@@ -17,7 +17,7 @@ export function SiteMap() {
 
 
 export function Nav() {
-    return <nav>
+    return <nav className={"navigation"}>
         <Bubble title="Navigation">
             <SiteMap />
         </Bubble>

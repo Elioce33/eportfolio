@@ -4,7 +4,6 @@ const lorem = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore 
 
 export default function Page() {
   return <>
-    <h1>Hobbies</h1>
     <main>
       <Bubble title="Photographie">
         <p>{lorem}</p>

@@ -20,7 +20,6 @@ export default function Page() {
 
 
   return <>
-    <h1>School Career</h1>
     <main className="school_career">
       {schoolItems}
     </main>

@@ -8,8 +8,6 @@ const projectsItems = projects.map((project: Project, index: number) => {
 
 export default function Page() {
   return <>
-    <h1>Projects</h1>
-    {/* insert a nav menu for this page */}
     <main className="projects">
       {projectsItems}
     </main>

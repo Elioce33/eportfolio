@@ -7,7 +7,6 @@ const worksItems = companies.map((company, idx) => {
 
 export default function Page() {
   return <>
-    <h1>Work Experiences</h1>
     <main>
       <p>{description}</p>
       {worksItems}

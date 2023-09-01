@@ -11,8 +11,6 @@ export default function Page({ params }: { params: { slug: string } }) {
 
 
   return <>
-    <h1>Projects</h1>
-    {/* insert a nav menu for this page */}
     <main className="project container-fuild p-3">
       <h2>{name}</h2>
       <div className="description border-start border-2 border-dark ps-2">
