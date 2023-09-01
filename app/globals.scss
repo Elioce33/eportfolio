@@ -80,6 +80,10 @@ h1 {
 main {
   margin: 5% auto 0 auto;
   width: 80%;
+  &.project {
+    width: 60%;
+  }
+
   border: 2px dashed black;
 
   .bubble_container {

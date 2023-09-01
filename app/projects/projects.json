@@ -6,7 +6,10 @@
       "description": "Client FTP développé en JAVA avec une interface en ligne de commandes",
       "presentation": "",
       "languages": [
-        "Java"
+        {
+          "name": "Java",
+          "slug": "java"
+        }
       ],
       "technologies": [
         "Socket"
@@ -24,10 +27,16 @@
       "description": "Logiciel de modélisation 3D, il est possible de lire des fichier .ply et afficher les objets 3D.",
       "presentation": "",
       "languages": [
-        "Java"
+        {
+          "name": "Java",
+          "slug": "java"
+        }
       ],
       "technologies": [
-        "JavaFX"
+        {
+          "name": "JavaFX",
+          "slug": "javafx"
+        }
       ],
       "links": [
         {
@@ -42,7 +51,10 @@
       "description": "Serveur web respectant le protocole HTTP/1.1",
       "presentation": "",
       "languages": [
-        "C (Language)"
+        {
+          "name": "C (Language)",
+          "slug": "c"
+        }
       ],
       "technologies": [
         "Socket"
@@ -60,12 +72,24 @@
       "description": "Site web qui utilise l'api <a href=\"https://www.tvmaze.com/\">tvmaze</a> pour afficher des séries. Il est possible de faire des recherche et d'ajouter certaines séries dans nos favoris (localement)",
       "presentation": "",
       "languages": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        {
+          "name": "HTML",
+          "slug": "html"
+        },
+        {
+          "name": "CSS",
+          "slug": "css"
+        },
+        {
+          "name": "JavaScript",
+          "slug": "javascript"
+        }
       ],
       "technologies": [
-        "NodeJS",
+        {
+          "name": "NodeJS",
+          "slug": "nodejs"
+        },
         "MazeTV API"
       ],
       "links": [
@@ -85,7 +109,10 @@
       "description": "Un système expert est un outil capable de reproduire les mécanismes cognitifs d'un expert, dans un domaine particulier. Il s'agit de l'une des voies tentant d'aboutir à l'intelligence artificielle.",
       "presentation": "",
       "languages": [
-        "Java"
+        {
+          "name": "Java",
+          "slug": "java"
+        }
       ],
       "technologies": [],
       "links": [
@@ -101,14 +128,32 @@
       "description": "Le but de ce projet c'est de crée un site web qui permet d'afficher toute les table d'une base de donnée (H2/postgresql) et qui permet de faire les opératoin de base de SQL: Select, Update, Insert, Delete",
       "presentation": "",
       "languages": [
-        "Java",
-        "Servlet",
-        "JDBC"
+        {
+          "name": "Java",
+          "slug": "java"
+        },
+        {
+          "name": "Servlet",
+          "slug": "servlet"
+        },
+        {
+          "name": "JDBC",
+          "slug": "jdbc"
+        }
       ],
       "technologies": [
-        "H2",
-        "PostgreSQL",
-        "Tomcat"
+        {
+          "name": "H2",
+          "slug": "h2"
+        },
+        {
+          "name": "PostgreSQL",
+          "slug": "postgresql"
+        },
+        {
+          "name": "Tomcat",
+          "slug": "tomcat"
+        }
       ],
       "links": [
         {
@@ -123,13 +168,28 @@
       "description": "Le but de ce projet c'est de crée un site web qui permet d'uploader des fichiers sur un serveur et de les télécharger. Utilisation possible seulement avec un compte utilisateur.",
       "presentation": "",
       "languages": [
-        "Java/JEE",
-        "JDBC",
-        "JSP"
+        {
+          "name": "Java/JEE",
+          "slug": "java-jee"
+        },
+        {
+          "name": "JDBC",
+          "slug": "jdbc"
+        },
+        {
+          "name": "JSP",
+          "slug": "jsp"
+        }
       ],
       "technologies": [
-        "H2",
-        "Tomcat"
+        {
+          "name": "H2",
+          "slug": "h2"
+        },
+        {
+          "name": "Tomcat",
+          "slug": "tomcat"
+        }
       ],
       "links": [
         {
@@ -144,15 +204,36 @@
       "description": "Réalisation d'un site de partage des dépenses (basé sur le fonctionnement de Tricount). Chaque utilisateur possède un compte et peut créer des événements",
       "presentation": "Ce projet à été réalisé dans le cadre de, bla bla bla...",
       "languages": [
-        "Java",
-        "JSP",
-        "JDBC"
+        {
+          "name": "Java",
+          "slug": "java"
+        },
+        {
+          "name": "JSP",
+          "slug": "jsp"
+        },
+        {
+          "name": "JDBC",
+          "slug": "jdbc"
+        }
       ],
       "technologies": [
-        "Spring Boot",
-        "Spring Security",
-        "PostgreSQL",
-        "H2"
+        {
+          "name": "Spring Boot",
+          "slug": "spring-boot"
+        },
+        {
+          "name": "Spring Security",
+          "slug": "spring-security"
+        },
+        {
+          "name": "PostgreSQL",
+          "slug": "postgresql"
+        },
+        {
+          "name": "H2",
+          "slug": "h2"
+        }
       ],
       "links": [
         {

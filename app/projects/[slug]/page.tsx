@@ -5,21 +5,26 @@ export default function Page({ params }: { params: { slug: string } }) {
   const project: any = projects.find((project) => project.slug === params.slug);
   const {name, description, presentation, languages, technologies, links} = project;
 
-  const languagesItems = languages.map((language: string, index: number) => <li key={index}>{language}</li>);
-  const technologiesItems = technologies.map((technology: string, index: number) => <li key={index}>{technology}</li>);
+  const languagesItems = languages.map((language: string | {name: string, slug : string}, index: number) => <li key={index}>{typeof language === "object" ? language.name : language}</li>);
+  const technologiesItems = technologies.map((technology: string | {name: string, slug : string}, index: number) => <li key={index}>{typeof technology === "object" ? technology.name : technology}</li>);
   const linksItems = links.map(({url, name}: {url: string, name: string}, index: number) => <li key={index}><a href={url}>{name}</a></li>);
 
 
   return <>
     <h1>Projects</h1>
-    <main>
+    {/* insert a nav menu for this page */}
+    <main className="project container-fuild p-3">
       <h2>{name}</h2>
-      <p>{description}</p>
+      <div className="description border-start border-2 border-dark ps-2">
+        <p>{description}</p>
+      </div>
 
-      { presentation && <>
-          <h2>Présentation</h2>
-          <p>{presentation}</p>
-      </>}
+      <div className={"presentation"}>
+        { presentation && <>
+            <h2>Présentation</h2>
+            <p>{presentation}</p>
+        </>}
+      </div>
 
       {languages.length > 0 && <>
           <h3>Language</h3>

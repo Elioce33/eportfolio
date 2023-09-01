@@ -4,8 +4,8 @@ import styles from './ArticleProject.module.css';
 
 export function ArticleProject({className = "", children, project}: any) {
   const {name, slug, description, languages, technologies, links} = project;
-  const languagesItems = languages.map((language: string, index: number) => <li key={index}>{language}</li>);
-  const technologiesItems = technologies.map((technology: string, index: number) => <li key={index}>{technology}</li>);
+  const languagesItems = languages.map((language: string | {name: string, slug : string}, index: number) => <li key={index}>{typeof language === "object" ? language.name : language}</li>);
+  const technologiesItems = technologies.map((technology: string | {name: string, slug : string}, index: number) => <li key={index}>{typeof technology === "object" ? technology.name : technology}</li>);
   const linksItems = links.map(({url, name}: { url: string, name: string }, index: number) => <li key={index}><a
     href={url}>{name}</a></li>);
 
