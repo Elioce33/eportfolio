@@ -29,7 +29,6 @@ export function Header() {
 
   useEffect(() => {
     setCurrentPageTitle(getPageTitle(pathname));
-    console.log("New page title", currentPageTitle);
   }, [pathname]);
 
   return <>

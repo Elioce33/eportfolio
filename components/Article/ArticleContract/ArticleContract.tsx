@@ -23,7 +23,7 @@ function ProjectCard({project}: any) {
 export function ArticleContract({className = "", contract}: any) {
   const {name, job, duration, started_at, ended_at, description, projects} = contract;
 
-  const projectItems = projects.map((project: any, idx: number) => <ProjectCard project={project} />);
+  const projectItems = projects.map((project: any, idx: number) => <ProjectCard key={idx} project={project} />);
 
   return <>
     <Article className={`${className}`}>

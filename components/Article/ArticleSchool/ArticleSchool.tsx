@@ -1,5 +1,6 @@
 import {Article} from "@components/Article/Article";
 import Link from "next/link";
+import Image from "next/image";
 
 
 export function ArticleSchool({className = "", children, school}: any) {
@@ -13,7 +14,7 @@ export function ArticleSchool({className = "", children, school}: any) {
           <span>{address}</span>
         </div>
         <div className="school-logo col text-end">
-          <img src={`/images/schools/${slug}.png`} className="img-fluid" alt={`Logo de ${name}`}/>
+          <Image src={`/images/schools/${slug}.png`} className="img-fluid" alt={`Logo de ${name}`}/>
         </div>
       </header>
       <div className="certificates">
