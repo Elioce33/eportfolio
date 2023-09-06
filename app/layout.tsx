@@ -1,6 +1,7 @@
 import {ReactNode} from "react";
 
 import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import '@components/Article/Article.module.css'
 import '@components/Article/ArticleProject/ArticleProject.module.css'
 import './globals.scss'

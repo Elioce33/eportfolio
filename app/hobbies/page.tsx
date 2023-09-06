@@ -54,8 +54,8 @@ export default function Page() {
     <main>
       <div className={"row row-cols-2"}>
         <div className={"col"}>
-          <Article>
-            <h2>Photographie</h2>
+          <Article className={"h-100"}>
+            <h2> <i className={"bi bi-camera"}></i> Photographie</h2>
             <div className={"row row-cols-2"}>
               <div className={"col"}>
                 <p>
@@ -75,12 +75,13 @@ export default function Page() {
           </Article>
         </div>
         <div className={"col"}>
-          <Article>
-            <h2>Lecture</h2>
+          <Article className={"h-100"}>
+            <h2><i className={"bi bi-book"}></i> Lecture</h2>
             <div className={"row"}>
               <div className={"col-8"}>
-                <p>La lecture est un moyen de s'évader dans un autre monde le temps d'un instant. Entre les livres de Guillaume
-                  Musso et la série Percy Jackson de l'écrivain Rick Riordan je me suis perdu de nombreuse fois</p>
+                <p>La lecture est un moyen de s'évader dans un autre monde le temps d'un instant. Et je me suis perdu de
+                  nombreuse fois dans les livres de mes auteurs préférés. J'aime les romans fantastique, ainsi que les romans
+                  d'aventure. Je lis principalement des livres de Guillaume Musso et de Rick Riordan.</p>
               </div>
               <div className={"col"}>
                 <MyCarousel images={IMAGES.books} />
@@ -88,10 +89,14 @@ export default function Page() {
             </div>
           </Article>
         </div>
-        <div className={"col"}>
-          <Article>
-            <h2>Nature et Vélo</h2>
-            <p>J'aime la nature</p>
+        <div className={"col-12"}>
+          <Article className={"h-100"}>
+            <h2><i className={"bi bi-bicycle"}></i> Nature et Vélo</h2>
+            <p>J'aime faire du vélo. De la même façon que les livres, le vélo me permet de m'évadé, mais contrairement
+              aux livre, il me permet de me vidé la tête </p>
+            <p>J'adore aussi la nature, en vélo j'aime bien longé la Deûle pendant des kilomètres. J'apprécie aussi me
+              baladé en forêt. Et je rêve d'aller en vacance en montage pour faire de la randonnée et contemplé la
+              nature.</p>
           </Article>
         </div>
       </div>
