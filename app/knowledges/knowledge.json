@@ -1,0 +1,244 @@
+{
+  "languages": [
+    {
+      "name": "Java",
+      "slug": "java",
+      "knowledge_level": 0,
+      "comment": "",
+      "frameworks": [
+        {
+          "name": "Spring",
+          "slug": "spring",
+          "knowledge_level": 0,
+          "comment": ""
+        },
+        {
+          "name": "JEE/tomcat",
+          "slug": "jee-tomcat",
+          "knowledge_level": 0,
+          "comment": ""
+        },
+        {
+          "name": "Hibernate",
+          "slug": "hibernate",
+          "knowledge_level": 0,
+          "comment": ""
+        },
+        {
+          "name": "JDBC",
+          "slug": "jdbc",
+          "knowledge_level": 0,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "name": "C",
+      "slug": "c",
+      "knowledge_level": 0,
+      "comment": "",
+      "frameworks": []
+    },
+    {
+      "name": "JavaScript",
+      "slug": "javascript",
+      "knowledge_level": 0,
+      "comment": "",
+      "frameworks": [
+        {
+          "name": "NodeJS",
+          "slug": "nodejs",
+          "knowledge_level": 0,
+          "comment": ""
+        },
+        {
+          "name": "React",
+          "slug": "react",
+          "knowledge_level": 0,
+          "comment": ""
+        },
+        {
+          "name": "TypeScript",
+          "slug": "typescript",
+          "knowledge_level": 0,
+          "comment": ""
+        },
+        {
+          "name": "Express.js",
+          "slug": "expressjs",
+          "knowledge_level": 0,
+          "comment": ""
+        },
+        {
+          "name": "Next.js",
+          "slug": "nextjs",
+          "knowledge_level": 0,
+          "comment": ""
+        },
+        {
+          "name": "Nest.js",
+          "slug": "nestjs",
+          "knowledge_level": 0,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "name": "Python",
+      "slug": "python",
+      "knowledge_level": 0,
+      "comment": "",
+      "frameworks": []
+    },
+    {
+      "name": "SQL",
+      "slug": "sql",
+      "knowledge_level": 0,
+      "comment": "I have used many SQL databases such as PostgresQL, H2, MySQL and SQLite principally",
+      "frameworks": []
+    }
+  ],
+  "knowledge": {
+    "concept": {
+      "comment": "",
+      "items": [
+        {
+          "name": "API",
+          "slug": "api",
+          "knowledge_level": 0,
+          "comment": "",
+          "tools": [
+            {
+              "name": "REST",
+              "slug": "rest",
+              "knowledge_level": 0,
+              "comment": ""
+            },
+            {
+              "name": "GraphQL",
+              "slug": "graphql",
+              "knowledge_level": 0,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Méthode Agile",
+          "slug": "agile",
+          "knowledge_level": 0,
+          "comment": "",
+          "tools": [
+            {
+              "name": "Jira",
+              "slug": "jira",
+              "knowledge_level": 0,
+              "comment": ""
+            },
+            {
+              "name": "Confluence",
+              "knowledge_level": 0,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "CI/CD - DevOps",
+          "slug": "ci-cd-devops",
+          "knowledge_level": 0,
+          "comment": "",
+          "tools": [
+            {
+              "name": "Docker",
+              "slug": "docker",
+              "knowledge_level": 0,
+              "comment": ""
+            },
+            {
+              "name": "AWS",
+              "slug": "aws",
+              "knowledge_level": 0,
+              "comment": ""
+            }
+          ]
+        }
+      ]
+    },
+    "tools": {
+      "comment": "",
+      "items": [
+        {
+          "name": "Linux/macOs",
+          "slug": "linux-macos",
+          "knowledge_level": 0,
+          "comment": "",
+          "tools": []
+        },
+        {
+          "name": "Git",
+          "slug": "git",
+          "knowledge_level": 0,
+          "comment": "",
+          "tools": [
+            {
+              "name": "Github",
+              "slug": "github",
+              "knowledge_level": 0,
+              "comment": ""
+            },
+            {
+              "name": "Gitlab",
+              "slug": "gitlab",
+              "knowledge_level": 0,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Postman",
+          "slug": "postman",
+          "knowledge_level": 0,
+          "comment": "",
+          "tools": []
+        }
+      ]
+    }
+  },
+  "personal_competences": [
+    {
+      "name": "Autonomie",
+      "slug": "autonomie",
+      "knowledge_level": 0,
+      "comment": ""
+    },
+    {
+      "name": "Curiosité",
+      "slug": "curiosite",
+      "knowledge_level": 0,
+      "comment": ""
+    },
+    {
+      "name": "Rigueur",
+      "slug": "rigueur",
+      "knowledge_level": 0,
+      "comment": ""
+    },
+    {
+      "name": "Esprit d'équipe",
+      "slug": "esprit-equipe",
+      "knowledge_level": 0,
+      "comment": ""
+    },
+    {
+      "name": "Créativité",
+      "slug": "creativite",
+      "knowledge_level": 0,
+      "comment": ""
+    },
+    {
+      "name": "Communication",
+      "slug": "communication",
+      "knowledge_level": 0,
+      "comment": ""
+    }
+  ]
+}

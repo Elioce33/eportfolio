@@ -51,10 +51,10 @@ const IMAGES = {
 
 export default function Page() {
   return <>
-    <main>
+    <main className={"hobbies"}>
       <div className={"row row-cols-2"}>
         <div className={"col"}>
-          <Article className={"h-100"}>
+          <Article className={"photography h-100"}>
             <h2> <i className={"bi bi-camera"}></i> Photographie</h2>
             <div className={"row row-cols-2"}>
               <div className={"col"}>
@@ -75,7 +75,7 @@ export default function Page() {
           </Article>
         </div>
         <div className={"col"}>
-          <Article className={"h-100"}>
+          <Article className={"reading h-100"}>
             <h2><i className={"bi bi-book"}></i> Lecture</h2>
             <div className={"row"}>
               <div className={"col-8"}>
@@ -90,7 +90,7 @@ export default function Page() {
           </Article>
         </div>
         <div className={"col-12"}>
-          <Article className={"h-100"}>
+          <Article className={"bike h-100"}>
             <h2><i className={"bi bi-bicycle"}></i> Nature et Vélo</h2>
             <p>J'aime faire du vélo. De la même façon que les livres, le vélo me permet de m'évadé, mais contrairement
               aux livre, il me permet de me vidé la tête </p>
