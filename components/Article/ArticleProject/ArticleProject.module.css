@@ -1,0 +1,13 @@
+.project_tools {
+    border: 1px solid red;
+}
+
+.project_tools .languages,
+.project_tools .technologies {
+    padding: 1%;
+}
+
+.project_tools .languages .content,
+.project_tools .technologies .content {
+    border: 1px solid lightgreen;
+}
