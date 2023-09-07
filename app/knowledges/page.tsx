@@ -14,8 +14,8 @@ A competence can be a character trait (like "curious", "autonomous", "rigorous" 
 
 export default function Page() {
   const languagesItems = languages.map((language: any, idx: number) =>
-    <div className={"col"}>
-      <ArticleLanguage key={idx} language={language}/>
+    <div className={"col"} key={idx}>
+      <ArticleLanguage language={language}/>
     </div>
   );
   const knowledgeItems = <>
@@ -24,8 +24,8 @@ export default function Page() {
       <p>{knowledge.concept.comment}</p>
       <div className={"row"}>
         {knowledge.concept.items.map((concept: any, index: number) => {
-          return <div className={"col"}>
-            <ArticleKnowledge key={index} knowledge={concept}/>
+          return <div className={"col"} key={index}>
+            <ArticleKnowledge knowledge={concept}/>
           </div>
         })}
       </div>
@@ -35,8 +35,8 @@ export default function Page() {
       <p>{knowledge.tools.comment}</p>
       <div className={"row"}>
         {knowledge.tools.items.map((tool: any, index: number) => {
-          return <div className={"col"}>
-            <ArticleKnowledge key={index} knowledge={tool}/>
+          return <div className={"col"} key={index}>
+            <ArticleKnowledge knowledge={tool}/>
           </div>
         })}
       </div>
@@ -64,8 +64,8 @@ export default function Page() {
           <h3>Competences</h3>
           <div className={"row"}>
             {personal_competences.map((competence: any, index: number) => {
-              return <div className={"col"}>
-                <Article key={index}>
+              return <div className={"col"} key={index}>
+                <Article>
                   <h4>{competence.name}</h4>
                   <p>Niveau de connaissances: {competence.knowledge_level}</p>
                   <p>{competence.description}</p>
