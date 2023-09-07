@@ -8,6 +8,7 @@ import './globals.scss'
 
 import {Footer} from "@/components/Footer";
 import {Header} from "@components/Header";
+import {Ocean} from "@components/Ocean";
 
 
 export default function RootLayout(props: {
@@ -28,7 +29,7 @@ export default function RootLayout(props: {
   return (
     <html lang="en">
     <body>
-    {process.env?.ENV === "dev" && dev_bar}
+    <Ocean />
 
     <Header/>
 
