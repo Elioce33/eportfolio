@@ -8,7 +8,7 @@ export default function Page() {
       <div className='presentation_bubbles'>
         <Bubble className={"information_list_bubble"}>
           <h2>About</h2>
-          <ul className="list-disc list-inside">
+          <ul className="list-unstyled text-center">
             <li>Prénom : Eliott</li>
             <li>Nom: Collin</li>
             <li>Age: 18 ans</li>
