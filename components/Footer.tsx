@@ -1,6 +1,14 @@
 import {SiteMap} from "@components/Nav";
+import {LinkList} from "@components/LinkList";
+
 
 export function Footer() {
+  const links = [
+    {label: "Github", slug: "https://github.com/elioce33", blank: true},
+    {label: "Gitlab", slug: "https://gitlab.com/eliott.collin", blank: true},
+    {label: "Linkedin", slug: "https://www.linkedin.com/in/eliottcollin/", blank: true},
+  ];
+
   return <footer>
     <div className={"container"}>
       <div className={"row text-start"}>
@@ -10,11 +18,7 @@ export function Footer() {
         </div>
         <div className={"link col"}>
           <h3 className={"h5"}>Utils links</h3>
-          <ul>
-            <li>
-              <a href={""}>Github</a>
-            </li>
-          </ul>
+          <LinkList links={links}/>
         </div>
       </div>
     </div>
