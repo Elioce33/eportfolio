@@ -37,33 +37,97 @@ body {
   background-color: rgb(197, 248, 243);
 }
 
-.bubble_container {
-  background-color: rgba(0, 0, 0, 0.1);
-}
 
-.bubble {
-  margin: auto;
-  //background-color: rgba(0, 0, 250, 0.1);
-  /*border: 2px dashed black;*/
-  //height: 100%;
-  //width: 100%;
-  //border-radius: 50%;
-
-  h2 {
-    text-align: center;
-  }
-}
-
-
-.presentation_bubble.bubble_container {
-  background-color: rgba(255, 0, 0, 0.3);
+.presentation_bubbles {
   position: absolute;
   top: 30px;
   right: 30px;
-  width: 25%;
-  height: 25vw;
-  margin: 10px;
   z-index: 1;
+  //border: 1px dashed red;
+
+  //width: 30vw;
+  //height: 30vw;
+
+  .bubble_container {
+    background-color: rgba(0, 0, 0, 0.05);
+
+    &.information_list_bubble {
+      width: 11em;
+      height: 11em;
+      //border: 1px solid greenyellow;
+      position: absolute;
+      transform: translateX(-31em);
+    }
+
+    &.description_bubble {
+      width: 20em;
+      height: 20em;
+      //border: 1px solid deepskyblue;
+      position: absolute;
+      transform: translateX(-22em) translateY(5em);
+    }
+
+    .bubble_wrapper {
+      position: relative;
+      margin: 0;
+      background: radial-gradient(
+                      ellipse at center,
+                      rgba(255, 255, 255, 1) 0%,
+                      rgba(0, 128, 172, 1) 70%,
+                      rgba(255, 0, 0, 0) 70.3%
+      );
+      height: 100%;
+      width: 100%;
+
+      // figure before the text to wrap around
+      &::before {
+        content: "";
+        float: left;
+        height: 100%;
+        width: 50%;
+        shape-outside: polygon(
+                        0 0,
+                        98% 0,
+                        50% 6%,
+                        23.4% 17.3%,
+                        6% 32.6%,
+                        0 50%,
+                        6% 65.6%,
+                        23.4% 82.7%,
+                        50% 94%,
+                        98% 100%,
+                        0 100%
+        );
+        shape-margin: 3%;
+      }
+
+      .text {
+        height: 100%; // to make the text fill the bubble
+
+        // figure after the text to wrap around
+        &::before {
+          content: "";
+          float: right;
+          height: 100%;
+          width: 50%;
+          shape-outside: polygon(
+                          2% 0%,
+                          100% 0%,
+                          100% 100%,
+                          2% 100%,
+                          50% 94%,
+                          76.6% 82.7%,
+                          94% 65.6%,
+                          100% 50%,
+                          94% 32.6%,
+                          76.6% 17.3%,
+                          50% 6%
+          );
+          shape-margin: 3%;
+        }
+      }
+    }
+  }
 }
 
 
@@ -80,27 +144,13 @@ h1 {
 main {
   margin: 5% auto 0 auto;
   width: 80%;
+
   &.project {
     width: 60%;
   }
 
   border: 2px dashed black;
-
-  .bubble_container {
-    width: 25vw;
-    height: 25vw;
-  }
-
-  .bubble .bubble_content {
-    //margin: 10px;
-  }
 }
-
-//main.home {
-//  .bubble_container {
-//    margin: 0 auto;
-//  }
-//}
 
 
 nav {

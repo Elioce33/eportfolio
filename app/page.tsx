@@ -5,21 +5,21 @@ import Link from "next/link";
 export default function Page() {
   return <>
     <main className="home">
-      <Bubble className='presentation_bubble' title="About">
-        <div>
-          <div>
-            Informations
-            <ul className="list-disc list-inside">
-              <li>Prénom : Eliott</li>
-              <li>Nom: Collin</li>
-              <li>Age: 18 ans</li>
-            </ul>
-          </div>
-          <div>
-            <p>Je suis un jeune développeur à la recherche de nouveaux projets. J'aime apprendre et la bonne humeur !</p>
-          </div>
-        </div>
-      </Bubble>
+      <div className='presentation_bubbles'>
+        <Bubble className={"information_list_bubble"}>
+          <h2>About</h2>
+          <ul className="list-disc list-inside">
+            <li>Prénom : Eliott</li>
+            <li>Nom: Collin</li>
+            <li>Age: 18 ans</li>
+          </ul>
+        </Bubble>
+        <Bubble className={"description_bubble"}>
+          <p>Jeune diplômé d'un bac + 3 et fort d'expérience en tant que développeur backend, je suis également ouvert au développement frontend.</p>
+          <p>Je cherche continuellement à apprendre de nouvelles façons de faire et à augmenter mes connaissances.</p>
+        </Bubble>
+      </div>
+
 
       <div className="container-fluid">
         <div className="row row-cols-2">

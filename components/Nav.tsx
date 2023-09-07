@@ -1,5 +1,4 @@
 import Link from "next/link";
-import {Bubble} from "@/components/Bubble";
 
 export function SiteMap() {
   return <>
