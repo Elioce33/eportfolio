@@ -4,6 +4,7 @@ Source from : https://codepen.io/codypearce/pen/VwYOGzq
 
 .ocean {
     position: fixed;
+    top: 0;
     width: 99vw;
     height: 99vh;
     /*background-image: linear-gradient(0deg, #182848, #2980b9);*/

@@ -27,21 +27,16 @@ body {
 }*/
 
 html, body {
-  /* width: 100%; */
   min-height: 100%;
 }
 
 body {
-  /* background: url("../images/website_under_construct.gif") center; */
-  /* background-size: cover; */
-  //background-color: rgb(197, 248, 243);
   background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   color: white;
 }
 
 a {
   color: rgb(33, 197, 234);
-  //text-decoration: none;
 }
 
 .presentation_bubbles {
@@ -49,13 +44,8 @@ a {
   top: 5px;
   right: 5px;
   z-index: 1;
-  //border: 1px dashed red;
-
-  //width: 30vw;
-  //height: 30vw;
 
   .bubble_container {
-    //background-color: rgba(0, 0, 0, 0.05);
 
     &.information_list_bubble {
       width: 11em;

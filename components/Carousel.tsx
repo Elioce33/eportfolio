@@ -1,6 +1,6 @@
 'use client';
 
-import Carousel from "nuka-carousel"
+import Carousel from "nuka-carousel" // documentation: https://formidable.com/open-source/nuka-carousel/
 
 export function MyCarousel({images}: { images: {original: string, alt: string, text: string}[]}) {
   return <>

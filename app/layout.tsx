@@ -29,13 +29,17 @@ export default function RootLayout(props: {
   return (
     <html lang="en">
     <body>
-    <Ocean />
-
+    {dev_bar}
     <Header/>
 
+    {/* some bubble effect */}
+    <Ocean/>
+
+    {/* main content */}
     <div className='page'>
       {props.children}
     </div>
+
     <Footer/>
     </body>
     </html>
