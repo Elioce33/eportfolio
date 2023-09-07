@@ -14,20 +14,21 @@ export default function RootLayout(props: {
   children: ReactNode,
 }) {
 
+  const dev_bar = <div style={{
+    textAlign: "center",
+    display: "block",
+    border: "2px solid black",
+    width: "40%",
+    margin: "2% auto",
+    backgroundColor: "yellow"
+  }}>
+    <span style={{fontSize: "3em"}}>🚧 Work in progress 🚧 <span style={{fontStyle: "italic", fontSize: "0.5em"}}>I swear...</span></span>
+  </div>
 
   return (
     <html lang="en">
     <body>
-    <div style={{
-      textAlign: "center",
-      display: "block",
-      border: "2px solid black",
-      width: "40%",
-      margin: "2% auto",
-      backgroundColor: "yellow"
-    }}>
-      <span style={{fontSize: "3em"}}>🚧 Work in progress 🚧 <span style={{fontStyle: "italic", fontSize: "0.5em"}}>I swear...</span></span>
-    </div>
+    {process.env?.ENV === "dev" && dev_bar}
 
     <Header/>
 
