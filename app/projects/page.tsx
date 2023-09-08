@@ -9,7 +9,7 @@ import {Bubble} from "@components/Bubble";
 
 
 const projectsItems = projects.map((project: Project, index: number) => {
-  return <ArticleProject key={index} project={project} />
+  return <ArticleProject className={"col"} key={index} project={project} />
 });
 
 export default function Page() {
@@ -24,7 +24,9 @@ export default function Page() {
         </Bubble>
       </nav>
 
-      {projectsItems}
+      <div className={"row row-cols-1"}>
+        {projectsItems}
+      </div>
     </main>
   </>
 }

@@ -1,13 +1,15 @@
 .project_tools {
-    border: 1px solid red;
+    /*border: 1px dotted red;*/
 }
 
 .project_tools .languages,
 .project_tools .technologies {
-    padding: 1%;
+    padding: 10px;
 }
 
 .project_tools .languages .content,
 .project_tools .technologies .content {
-    border: 1px solid lightgreen;
+    /*border: 1px solid lightgreen;*/
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
 }
