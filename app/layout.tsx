@@ -21,7 +21,8 @@ export default function RootLayout(props: {
     border: "2px solid black",
     width: "40%",
     margin: "2% auto",
-    backgroundColor: "yellow"
+    backgroundColor: "yellow",
+    color: "black"
   }}>
     <span style={{fontSize: "3em"}}>🚧 Work in progress 🚧 <span style={{fontStyle: "italic", fontSize: "0.5em"}}>I swear...</span></span>
   </div>
