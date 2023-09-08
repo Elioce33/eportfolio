@@ -31,6 +31,7 @@ export default function RootLayout(props: {
     <html lang="en">
     <body>
     {dev_bar}
+    <div className={"background"}></div>
     <Header/>
 
     {/* some bubble effect */}
