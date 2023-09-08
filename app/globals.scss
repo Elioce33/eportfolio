@@ -48,19 +48,25 @@ a {
   .bubble_container {
 
     &.information_list_bubble {
+      position: absolute;
       width: 11em;
       height: 11em;
-      //border: 1px solid greenyellow;
-      position: absolute;
       transform: translateX(-31em);
     }
 
     &.description_bubble {
+      position: absolute;
       width: 21em;
       height: 21em;
-      //border: 1px solid deepskyblue;
+      transform: translateX(-22em) translateY(4em);
+    }
+
+    &.cv_bubble {
       position: absolute;
-      transform: translateX(-22em) translateY(5em);
+      width: 15em;
+      height: 15em;
+      transform: translateX(-39em) translateY(13em);
+      text-align: center;
     }
   }
 }

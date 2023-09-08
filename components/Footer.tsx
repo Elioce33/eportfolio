@@ -22,6 +22,12 @@ export function Footer() {
           <h3 className={"h5"}>Contact</h3>
           <LinkList links={links}/>
         </div>
+        <div className={"link col"}>
+          <h3 className={"h5"}>Liens utiles</h3>
+          <ul>
+            <li><a href="/CV_Eliott_Collin.pdf" target={"_blank"}>CV_Eliott_Collin.pdf</a></li>
+          </ul>
+        </div>
       </div>
     </div>
     <div className={"copyright"}>

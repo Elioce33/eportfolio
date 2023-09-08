@@ -19,6 +19,11 @@ export default function Page() {
           <p>Jeune diplômé d'un bac + 3 et fort d'expérience en tant que développeur backend, je suis également ouvert au développement frontend.</p>
           <p>Je cherche continuellement à apprendre de nouvelles façons de faire et à augmenter mes connaissances.</p>
         </Bubble>
+        <Bubble className={"cv_bubble"}>
+          <h3>CV</h3>
+          <p>Vous pouvez voir mon CV en cliquant sur le bouton ci-dessous.</p>
+          <a href="/CV_Eliott_Collin.pdf" target={"_blank"} className="btn btn-info">CV_Eliott_Collin.pdf</a>
+        </Bubble>
       </div>
 
 
