@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Page() {
   return <>
-    <main className="home">
+    <main className="home container">
       <div className='presentation_bubbles'>
         <Bubble className={"information_list_bubble"}>
           <h2>About</h2>

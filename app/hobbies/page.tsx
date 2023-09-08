@@ -93,7 +93,7 @@ export default function Page() {
           <Article className={"bike h-100"}>
             <h2><i className={"bi bi-bicycle"}></i> Nature et Vélo</h2>
             <p>J'aime faire du vélo. De la même façon que les livres, le vélo me permet de m'évadé, mais contrairement
-              aux livre, il me permet de me vidé la tête </p>
+              aux livre, il me permet de me vider la tête </p>
             <p>J'adore aussi la nature, en vélo j'aime bien longé la Deûle pendant des kilomètres. J'apprécie aussi me
               baladé en forêt. Et je rêve d'aller en vacance en montage pour faire de la randonnée et contemplé la
               nature.</p>
