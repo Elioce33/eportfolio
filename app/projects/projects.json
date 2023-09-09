@@ -4,7 +4,7 @@
       "name": "Client FTP",
       "slug": "client-ftp",
       "description": "Client FTP développé en JAVA avec une interface en ligne de commandes",
-      "shortDescription": "",
+      "shortDescription": "Little ui client for the app",
       "presentation": "",
       "languages": [
         {

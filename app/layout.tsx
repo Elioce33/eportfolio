@@ -30,7 +30,7 @@ export default function RootLayout(props: {
   return (
     <html lang="en">
     <body>
-    {dev_bar}
+    {/*{dev_bar}*/}
     <div className={"background"}></div>
     <Header/>
 
