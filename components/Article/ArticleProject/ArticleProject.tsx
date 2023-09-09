@@ -10,7 +10,7 @@ export function ArticleProject({className = "", project}: any) {
 
   const languagesItems = languages.map((language: string | { name: string, slug: string }, index: number) => <li key={index}>{typeof language === "object" ? language.name : language}</li>);
   const technologiesItems = technologies.map((technology: string | { name: string, slug: string }, index: number) => <li key={index}>{typeof technology === "object" ? technology.name : technology}</li>);
-  const linksItems = links.map(({url, name}: { url: string, name: string }, index: number) => <li key={index}><a href={url}>{name}</a></li>);
+  const linksItems = links.map(({url, name}: { url: string, name: string }, index: number) => <li key={index}><a href={url} target={"_blank"}><i className="bi bi-box-arrow-up-right"></i> {name}</a></li>);
   const title = <Link href={"projects/" + slug}>{name}</Link>;
 
   function zoomIn(e: any) {
@@ -44,7 +44,7 @@ export function ArticleProject({className = "", project}: any) {
             {technologies.length > 0 &&
                 <div className={`${styles.technologies} col mx-1`}>
                     <div className={`${styles.content} h-100 p-3`}>
-                        <h3>Technologies</h3>
+                        <h3>Technologies / frameworks</h3>
                         <ul>{technologiesItems}</ul>
                     </div>
                 </div>
