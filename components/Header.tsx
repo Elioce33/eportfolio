@@ -1,6 +1,8 @@
 "use client";
 
-import {usePathname, useRouter} from "next/navigation";
+import {usePathname} from "next/navigation";
+import { Modak } from 'next/font/google'
+
 
 import {Nav} from "@components/Nav";
 import {useEffect, useState} from "react";
@@ -16,6 +18,8 @@ const pages = [
   {label: "Knowledge", path: "/knowledges"},
   {label: "Hobbies", path: "/hobbies"},
 ];
+
+const modak = Modak({weight: "400", subsets: ['latin'] });
 
 function getPageTitle(pathname: string) {
   const pageTitles = pages.filter(page => pathname.startsWith(page.path) );
@@ -34,7 +38,7 @@ export function Header() {
   return <>
     <header>
       <Nav/>
-      <h1>{currentPageTitle}</h1>
+      <h1 className={modak.className}>{currentPageTitle}</h1>
     </header>
   </>;
 }
