@@ -257,6 +257,39 @@
           "url": "https://debtswapper.fishcorp.fr"
         }
       ]
+    },
+    {
+      "name": "2048",
+      "slug": "2048",
+      "description": "Reproduction du célèbre jeu 2048 en HTML CSS et JS",
+      "shortDescription": "Game of 2048 my own way",
+      "presentation": "",
+      "languages": [
+        {
+          "name": "HTML",
+          "slug": "HTML"
+        },
+        {
+          "name": "JS",
+          "slug": "js"
+        },
+        {
+          "name": "CSS",
+          "slug": "CSS"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "NodeJS",
+          "slug": "nodejs"
+        }
+      ],
+      "links": [
+        {
+          "name": "Github",
+          "url": "https://github.com/Elioce33/2048"
+        }
+      ]
     }
   ]
 }
