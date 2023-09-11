@@ -19,7 +19,7 @@ export function LinkList({className = "", title, baseLink, links,}: {
         const url = baseLink !== undefined ? `${baseLink}/${slug}` : slug;
 
         return <li key={index}>
-          <Link href={url} target={blank ? "_blank" : ""}><i className={icon}></i> {label}</Link>
+          <i className={icon}></i> <Link href={url} target={blank ? "_blank" : ""}>{label}</Link>
         </li>
       })}
     </ul>
