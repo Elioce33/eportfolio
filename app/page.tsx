@@ -5,29 +5,39 @@ import Link from "next/link";
 export default function Page() {
   return <>
     <main className="home container">
-      <div className='presentation_bubbles'>
-        <Bubble className={"information_list_bubble"}>
-          <h2>About</h2>
-          <ul className="list-unstyled text-center">
-            <li>Prénom : Eliott</li>
-            <li>Nom: Collin</li>
-            <li>Age: 18 ans</li>
-          </ul>
-        </Bubble>
-        <Bubble className={"description_bubble"}>
-          <h3>Présentation</h3>
-          <p>Jeune diplômé d'un bac + 3 et fort d'expérience en tant que développeur backend, je suis également ouvert au développement frontend.</p>
-          <p>Je cherche continuellement à apprendre de nouvelles façons de faire et à augmenter mes connaissances.</p>
-        </Bubble>
-        <Bubble className={"cv_bubble"}>
-          <h3>CV</h3>
-          <p>Vous pouvez voir mon CV en cliquant sur le bouton ci-dessous.</p>
-          <a href="/CV_Eliott_Collin.pdf" target={"_blank"} className="btn btn-info">CV_Eliott_Collin.pdf</a>
-        </Bubble>
-      </div>
 
 
-      <div className="container-fluid">
+
+      <div className="home container-fluid">
+        <div className={"presentation"}>
+          <div className='presentation_bubbles'>
+            <Bubble className={"information_list_bubble"}>
+              <h2>About</h2>
+              <ul className="list-unstyled text-center">
+                <li>Prénom : Eliott</li>
+                <li>Nom: Collin</li>
+                <li>Age: 21 ans</li>
+              </ul>
+            </Bubble>
+            <Bubble className={"cv_bubble"}>
+              <h3>CV</h3>
+              <p>Vous pouvez voir mon CV en cliquant sur le bouton ci-dessous.</p>
+              <a href="/CV_Eliott_Collin.pdf" target={"_blank"} className="btn btn-info">CV_Eliott_Collin.pdf</a>
+            </Bubble>
+            <div className={"picture_me_bubble"}>
+              <div className={"bubble_wrapper"}>
+                <img src="/images/me_square.png" alt="Photo de moi" className={"img-fluid"}/>
+              </div>
+            </div>
+          </div>
+
+          <div className={"presentation square_bubble"}>
+            <h3>Présentation</h3>
+            <p>Jeune diplômé d'un bac + 3 et fort d'expérience en tant que développeur backend, je suis également ouvert au développement frontend.</p>
+            <p>Je cherche continuellement à apprendre de nouvelles façons de faire et à augmenter mes connaissances.</p>
+          </div>
+        </div>
+
         <div className="row row-cols-2">
           <div className="col">
             <Article className="projects h-100">
