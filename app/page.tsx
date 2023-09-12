@@ -10,7 +10,7 @@ export default function Page() {
         <div className={"presentation"}>
           <div className='presentation_bubbles'>
             <Bubble className={"information_list_bubble"}>
-              <h2>About</h2>
+              <h3 className={"pt-5"}>About</h3>
               <ul className="list-unstyled text-center">
                 <li>Prénom : Eliott</li>
                 <li>Nom: Collin</li>
@@ -18,22 +18,24 @@ export default function Page() {
               </ul>
             </Bubble>
             <Bubble className={"cv_bubble"}>
-              <h3>CV</h3>
+              <h3 className={"pt-5"}>CV</h3>
               <p>Vous pouvez voir mon CV en cliquant sur le bouton ci-dessous.</p>
               <a href="/CV_Eliott_Collin.pdf" target={"_blank"} className="btn btn-info">CV_Eliott_Collin.pdf</a>
             </Bubble>
-            <div className={"picture_me_bubble"}>
-              <div className={"bubble_wrapper"}>
-                <img src="/images/me_square.png" alt="Photo de moi" className={"img-fluid"}/>
-              </div>
-            </div>
           </div>
 
           <BubbleSquare className={"page_description_bubble"}>
-            <h3>Présentation</h3>
-            <div className={"px-3"}>
-              <p>Jeune diplômé d'un bac + 3 et fort d'expérience en tant que développeur backend, je suis également ouvert au développement frontend.</p>
-              <p>Je cherche continuellement à apprendre de nouvelles façons de faire et à augmenter mes connaissances.</p>
+            <div className={"row"}>
+              <div className={"col-9"}>
+                <h2>Présentation</h2>
+                <div className={"px-2"}>
+                  <p>Jeune diplômé d'un bac + 3 et fort d'expérience en tant que développeur backend, je suis également ouvert au développement frontend.</p>
+                  <p>Je cherche continuellement à apprendre de nouvelles façons de faire et à augmenter mes connaissances.</p>
+                </div>
+              </div>
+              <div className={"col"}>
+                <img src="/images/me_square.png" alt="Photo de moi" className={"img-fluid img-thumbnail"}/>
+              </div>
             </div>
           </BubbleSquare>
         </div>
