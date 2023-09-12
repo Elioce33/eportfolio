@@ -10,11 +10,11 @@ import {useEffect, useState} from "react";
 
 const DEFAULT_PAGE_TITLE = "Eliott Collin";
 const pages = [
-  // {label: "Eliott Collin", path: "/"}, // default page title
+  {label: "Eliott Collin", path: "/"}, // default page title
   {label: "Projects", path: "/projects"},
   {label: "School career", path: "/school_career"},
   {label: "Work experience", path: "/works"},
-  {label: "My recommendations", path: "/recommendation"},
+  {label: "My recommendations", path: "/recommendations"},
   {label: "Knowledge", path: "/knowledges"},
   {label: "Hobbies", path: "/hobbies"},
 ];
@@ -22,7 +22,8 @@ const pages = [
 const modak = Modak({weight: "400", subsets: ['latin'] });
 
 function getPageTitle(pathname: string) {
-  const pageTitles = pages.filter(page => pathname.startsWith(page.path) );
+  const basePath = `/${pathname.split("/")[1]}`;
+  const pageTitles = pages.filter(page => basePath === page.path);
 
   return pageTitles.length > 0 ? pageTitles[0].label : DEFAULT_PAGE_TITLE;
 }

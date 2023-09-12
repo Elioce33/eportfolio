@@ -49,7 +49,7 @@ export default function Page() {
                 <ul className="list-disc list-inside">
                   <li><Link href="projects/client-ftp">Client FTP en Java</Link></li>
                   <li><Link href="projects/modelisation-3d">Modélisation 3D</Link></li>
-                  <li><Link href="projects/http-server">Serveur web</Link></li>
+                  <li><Link href="projects/http-server">Serveur web en C</Link></li>
                   <li><Link href="projects/just-series">Site web avec utilisation d'API externe</Link></li>
                   <li>[...]</li>
                 </ul>
@@ -64,8 +64,14 @@ export default function Page() {
           </div>
           <div className="col">
             <Article className="works h-100">
-              <h2><Link href="works">Work experience</Link></h2>
+              <h2><Link href="works">Works experiences</Link></h2>
               <p>J'ai aussi beaucoup appris en travaillant au sain d'équipe de développeur durant mes éxpérience professionnels [...]</p>
+            </Article>
+          </div>
+          <div className="col">
+            <Article className="hobbies h-100">
+              <h2><Link href="knowledges">Knowledges</Link></h2>
+              <p>[...]</p>
             </Article>
           </div>
           <div className="col">
