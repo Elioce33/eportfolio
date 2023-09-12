@@ -1,12 +1,12 @@
 .navigation {
     position: fixed;
-    left: 10px;
-    top: 10px;
+    left: 20px;
+    top: 20px;
 }
 
 .bubble {
-    width: 18em;
-    height: 18em;
+    width: 20em;
+    height: 20em;
     text-align: center;
 }
 

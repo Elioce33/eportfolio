@@ -51,30 +51,24 @@ a {
   right: 5px;
   z-index: 1;
 
-  .bubble_container {
-
-    &.information_list_bubble {
-      position: absolute;
-      width: 11em;
-      height: 11em;
-      transform: translateX(60em) translateY(-10em);
-    }
-
-    &.description_bubble {
-      position: absolute;
-      width: 21em;
-      height: 21em;
-      transform: translateX(-22em) translateY(4em);
-    }
-
-    &.cv_bubble {
-      position: absolute;
-      width: 15em;
-      height: 15em;
-      transform: translateX(67em) translateY(2em);
-      text-align: center;
-    }
+  .information_list_bubble {
+    position: absolute;
+    width: 13em;
+    height: 13em;
+    transform: translateX(60em) translateY(-10em);
+    text-align: center;
+    animation-delay: 3s;
   }
+
+  .cv_bubble {
+    position: absolute;
+    width: 17em;
+    height: 17em;
+    transform: translateX(67em) translateY(2em);
+    text-align: center;
+    animation-delay: 5s;
+  }
+
   .picture_me_bubble {
     position: absolute;
     width: 10em;
