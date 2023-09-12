@@ -33,8 +33,10 @@ export default function Page() {
 
           <div className={"presentation square_bubble"}>
             <h3>Présentation</h3>
-            <p>Jeune diplômé d'un bac + 3 et fort d'expérience en tant que développeur backend, je suis également ouvert au développement frontend.</p>
-            <p>Je cherche continuellement à apprendre de nouvelles façons de faire et à augmenter mes connaissances.</p>
+            <div className={"px-3"}>
+              <p>Jeune diplômé d'un bac + 3 et fort d'expérience en tant que développeur backend, je suis également ouvert au développement frontend.</p>
+              <p>Je cherche continuellement à apprendre de nouvelles façons de faire et à augmenter mes connaissances.</p>
+            </div>
           </div>
         </div>
 
