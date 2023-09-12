@@ -1,0 +1,8 @@
+.bubbleSquare {
+    border-radius: 50px;
+    border: 2px solid rgba(0, 193, 255, 0.3);
+    background: radial-gradient(
+            rgba(32, 134, 167, 0) 50%,
+            rgba(0, 193, 255, 0.6)
+    );
+}

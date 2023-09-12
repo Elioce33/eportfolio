@@ -1,14 +1,12 @@
+import Link from "next/link";
 import {Bubble} from "@/components/Bubble";
 import {Article} from "@components/Article/Article";
-import Link from "next/link";
+import {BubbleSquare} from "@components/BubbleSquare";
 
 export default function Page() {
   return <>
     <main className="home container">
-
-
-
-      <div className="home container-fluid">
+      <div className="container-fluid">
         <div className={"presentation"}>
           <div className='presentation_bubbles'>
             <Bubble className={"information_list_bubble"}>
@@ -31,13 +29,13 @@ export default function Page() {
             </div>
           </div>
 
-          <div className={"presentation square_bubble"}>
+          <BubbleSquare className={"page_description_bubble"}>
             <h3>Présentation</h3>
             <div className={"px-3"}>
               <p>Jeune diplômé d'un bac + 3 et fort d'expérience en tant que développeur backend, je suis également ouvert au développement frontend.</p>
               <p>Je cherche continuellement à apprendre de nouvelles façons de faire et à augmenter mes connaissances.</p>
             </div>
-          </div>
+          </BubbleSquare>
         </div>
 
         <div className="row row-cols-2">
