@@ -8,7 +8,7 @@ export function MyCarousel({images}: { images: {original: string, alt: string, t
       {images.map((image, index) =>
         <figure className="figure" key={index}>
           <img src={image.original} className="img-thumbnail" alt={image.alt} />
-          <figcaption className="figure-caption text-break">{image.text}</figcaption>
+          <figcaption className="figure-caption text-break text-white">{image.text}</figcaption>
         </figure>
       )}
     </Carousel>
