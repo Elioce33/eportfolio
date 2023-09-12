@@ -73,6 +73,7 @@
             rgba(255, 255, 255, 0) 100%
     );
     transform: translateX(131%) translateY(58%) rotateZ(168deg) rotateX(10deg);
+    pointer-events:none;
 }
 
 .ball.bubble:after {
@@ -96,6 +97,7 @@
             rgba(255, 255, 255, 0.7) 84%,
             rgba(255, 255, 255, 0) 100%
     );
+    pointer-events:none;
 }
 
 .stage {
