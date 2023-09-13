@@ -61,7 +61,7 @@ export default function Page() {
                   <p>
                     Apprécie prendre en photo ce qui m'entoure et particulièrement la nature. À chaque sortie j'en profite pour
                     prendre en photo ce que je trouve de beau. <br/>
-                    La majorité de mes photos sont prise avec mon téléphone, car j'aime avoir un appareil photo à porté de main
+                    La majorité de mes photos sont prise avec mon téléphone, car j'aime avoir un appareil photo à porter de main
                     pour ne pas rater une occasion de prendre une photo.
                   </p>
                   <p>
@@ -83,7 +83,7 @@ export default function Page() {
                   <div className={"row"}>
                     <div className={"col-8"}>
                       <p>La lecture est un moyen de s'évader dans un autre monde le temps d'un instant. Et je me suis perdu de
-                        nombreuse fois dans les livres de mes auteurs préférés. J'aime les romans fantastique, ainsi que les romans
+                        nombreuses fois dans les livres de mes auteurs préférés. J'aime les romans fantastique, ainsi que les romans
                         d'aventure. Je lis principalement des livres de Guillaume Musso et de Rick Riordan.</p>
                     </div>
                     <div className={"col"}>
@@ -95,10 +95,10 @@ export default function Page() {
               <div className={"col"}>
                 <Article className={"bike"}>
                   <h2><i className={"bi bi-bicycle"}></i> Nature et Vélo</h2>
-                  <p>J'aime faire du vélo. De la même façon que les livres, le vélo me permet de m'évadé, mais contrairement
-                    aux livre, il me permet de me vider la tête </p>
-                  <p>J'adore aussi la nature, en vélo j'aime bien longé la Deûle pendant des kilomètres. J'apprécie aussi me
-                    baladé en forêt. Et je rêve d'aller en vacance en montage pour faire de la randonnée et contemplé la
+                  <p>J'aime faire du vélo. De la même façon que les livres, le vélo me permet de m'évader, mais contrairement
+                    aux livres, il me permet de me vider la tête </p>
+                  <p>J'adore aussi la nature, en vélo j'aime bien longer la Deûle pendant des kilomètres. J'apprécie aussi me
+                    balader en forêt. Et je rêve d'aller en vacances en montage pour faire de la randonnée et contempler la
                     nature.</p>
                 </Article>
               </div>
