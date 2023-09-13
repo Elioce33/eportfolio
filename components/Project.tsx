@@ -16,12 +16,38 @@ const PROJECTS_PRESENTATION: Projects = {
       avec la plateforme gitlab pour la gestion de version, et la plateforme discord pour la communication.
     </p>
     <p>
-      La première version du projet était une application utilisable seulement depuis un terminal. Tout ce que faisait
-      le client était d'établir la connection avec le serveur et de transféré les input utilisateur au serveur et
-      d'afficher les réponses. La difficulté était qu'il fallait connaitre les commandes du protocole FTP pour pouvoir
-      utilisé le client correctement.
+      La première version du projet était une application utilisable seulement depuis un terminal. Le client établit
+      une connexion avec le serveur FTP et sert d'interface pour communiquer avec le serveur. L'utilisation du client
+      se fait uniquement avec les commandes du protocole FTP. <br/>
+      Dans la seconde version du projet, nous avons ajouté une interface graphique pour rendre l'utilisation du client
+      plus simple. Cependant, il est toujours nécessaire d'entrer les commandes à la main.
     </p>
-  </>
+  </>,
+  "modelisation-3d": <></>,
+  "http-server": <></>,
+  "just-series": <>
+    <p>
+      Il est possible de faire des recherche et d'ajouter certaines séries dans nos favoris (localement)
+    </p>
+  </>,
+  "systeme-expert": <>
+    <p>
+      Un système expert est un outil capable de reproduire les mécanismes cognitifs d'un expert, dans un domaine
+      particulier. Il s'agit de l'une des voies tentant d'aboutir à l'intelligence artificielle.
+    </p>
+  </>,
+  "bdd-manager": <></>,
+  "file-upload": <>
+    <p>
+      Utilisation possible seulement avec un compte utilisateur.
+    </p>
+  </>,
+  "debt-swapper": <>
+    <p>
+      Chaque utilisateur possède un compte et peut créer des événements
+    </p>
+  </>,
+  "2048": <></>,
 }
 
 export function Project({project_slug}: { project_slug: string }): JSX.Element {
