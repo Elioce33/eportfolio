@@ -30,21 +30,23 @@ export function Project({project_slug}: { project_slug: string }): JSX.Element {
 
   const languagesItems = languages.map((language: string | { name: string, slug: string }, index: number) => <li
     key={index}>{typeof language === "object" ? language.name : language}</li>);
-const technologiesItems = technologies.map((technology: string | { name: string, slug: string }, index: number) => <li
-  key={index}>{typeof technology === "object" ? technology.name : technology}</li>);
-const linksItems = links.map(({url, name}: { url: string, name: string }, index: number) => <li key={index}><a
-  href={url} target={"_blank"}>{name}</a></li>);
+  const technologiesItems = technologies.map((technology: string | { name: string, slug: string }, index: number) => <li
+    key={index}>{typeof technology === "object" ? technology.name : technology}</li>);
+  const linksItems = links.map(({url, name}: { url: string, name: string }, index: number) => <li key={index}><a
+    href={url} target={"_blank"}>{name}</a></li>);
 
-
-const presentation_element = <div className={"presentation"}>
-    <h2>Présentation</h2>
-    {PROJECTS_PRESENTATION[project_slug]}
+  const project_presentation = PROJECTS_PRESENTATION[project_slug];
+  const presentation_element = project_presentation && <div className={"presentation"}>
+      <h2>Présentation</h2>
+    {project_presentation}
   </div>;
 
   return <>
-    <h2>{name}</h2>
-    <div className="description border-start border-2 border-dark ps-2">
-      <p>{description}</p>
+    <div className={"text-center"}>
+      <h2>{name}</h2>
+      <div className="description fst-italic">
+        <p>{description}</p>
+      </div>
     </div>
 
     {presentation_element}

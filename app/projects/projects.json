@@ -73,7 +73,7 @@
     {
       "name": "Just Series",
       "slug": "just-series",
-      "description": "Site web qui utilise l'api <a href=\"https://www.tvmaze.com/\">tvmaze</a> pour afficher des séries. Il est possible de faire des recherche et d'ajouter certaines séries dans nos favoris (localement)",
+      "description": "Site web qui utilise l'api tvmaze pour afficher des séries.",
       "shortDescription": "",
       "languages": [
         {
@@ -110,7 +110,7 @@
     {
       "name": "Système expert",
       "slug": "systeme-expert",
-      "description": "Un système expert est un outil capable de reproduire les mécanismes cognitifs d'un expert, dans un domaine particulier. Il s'agit de l'une des voies tentant d'aboutir à l'intelligence artificielle.",
+      "description": "Reproduction d'un système expert en Java.",
       "shortDescription": "",
       "languages": [
         {
@@ -128,8 +128,8 @@
     },
     {
       "name": "Gestionnaire de base de données",
-      "slug": "bdd_manager",
-      "description": "Le but de ce projet c'est de crée un site web qui permet d'afficher toute les table d'une base de donnée (H2/postgresql) et qui permet de faire les opératoin de base de SQL: Select, Update, Insert, Delete",
+      "slug": "bdd-manager",
+      "description": "Site web en java qui permet d'afficher toute les table d'une base de donnée (H2/postgresql) et qui permet de faire les opération de base de SQL: Select, Update, Insert, Delete",
       "shortDescription": "",
       "languages": [
         {
@@ -169,7 +169,7 @@
     {
       "name": "Site d'upload de fichier",
       "slug": "file-upload",
-      "description": "Le but de ce projet c'est de crée un site web qui permet d'uploader des fichiers sur un serveur et de les télécharger. Utilisation possible seulement avec un compte utilisateur.",
+      "description": "Site web en java qui permet d'uploader des fichiers sur un serveur et de les télécharger.",
       "shortDescription": "",
       "languages": [
         {
@@ -205,7 +205,7 @@
     {
       "name": "DebtSwapper",
       "slug": "debt-swapper",
-      "description": "Réalisation d'un site de partage des dépenses (basé sur le fonctionnement de Tricount). Chaque utilisateur possède un compte et peut créer des événements",
+      "description": "Site de partage des dépenses (basé sur le fonctionnement de Tricount).",
       "shortDescription": "",
       "languages": [
         {

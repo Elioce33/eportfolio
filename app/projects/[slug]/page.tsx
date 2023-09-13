@@ -1,4 +1,4 @@
-import styles from "@/app/projects/page.module.css";
+import styles from "@app/projects/page.module.css";
 
 import {projects} from "../projects.json";
 
@@ -19,8 +19,14 @@ export default function Page({ params }: { params: { slug: string } }) {
       </Bubble>
     </nav>
 
-    <Project project_slug={params.slug} />;
+    <div className={`${styles.project_content} rounded-5 p-4`}>
+      <Project project_slug={params.slug} />
+    </div>
 
-    <Link href="/projects">Back to Projects</Link>
+    <div className={"fs-4 mt-3 text-center"}>
+      <Link href="/projects" className={"btn btn-outline-light"}>
+        <i className="bi bi-box-arrow-left"></i> <span>Revenir à la page Projects</span>
+      </Link>
+    </div>
   </main>
 }
