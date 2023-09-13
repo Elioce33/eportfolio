@@ -4,11 +4,16 @@
       "name": "Client FTP",
       "slug": "client-ftp",
       "description": "Client FTP développé en JAVA avec une interface en ligne de commandes",
+      "shortDescription": "Little ui client for the app",
       "presentation": "",
       "languages": [
         {
           "name": "Java",
           "slug": "java"
+        },
+        {
+          "name": "Protocol FTP",
+          "slug": "ftp"
         }
       ],
       "technologies": [
@@ -25,6 +30,7 @@
       "name": "Modélisation 3D",
       "slug": "modelisation-3d",
       "description": "Logiciel de modélisation 3D, il est possible de lire des fichier .ply et afficher les objets 3D.",
+      "shortDescription": "",
       "presentation": "",
       "languages": [
         {
@@ -49,6 +55,7 @@
       "name": "Serveur HTTP",
       "slug": "http-server",
       "description": "Serveur web respectant le protocole HTTP/1.1",
+      "shortDescription": "",
       "presentation": "",
       "languages": [
         {
@@ -70,6 +77,7 @@
       "name": "Just Series",
       "slug": "just-series",
       "description": "Site web qui utilise l'api <a href=\"https://www.tvmaze.com/\">tvmaze</a> pour afficher des séries. Il est possible de faire des recherche et d'ajouter certaines séries dans nos favoris (localement)",
+      "shortDescription": "",
       "presentation": "",
       "languages": [
         {
@@ -107,6 +115,7 @@
       "name": "Système expert",
       "slug": "systeme-expert",
       "description": "Un système expert est un outil capable de reproduire les mécanismes cognitifs d'un expert, dans un domaine particulier. Il s'agit de l'une des voies tentant d'aboutir à l'intelligence artificielle.",
+      "shortDescription": "",
       "presentation": "",
       "languages": [
         {
@@ -126,6 +135,7 @@
       "name": "Gestionnaire de base de données",
       "slug": "bdd_manager",
       "description": "Le but de ce projet c'est de crée un site web qui permet d'afficher toute les table d'une base de donnée (H2/postgresql) et qui permet de faire les opératoin de base de SQL: Select, Update, Insert, Delete",
+      "shortDescription": "",
       "presentation": "",
       "languages": [
         {
@@ -166,6 +176,7 @@
       "name": "Site d'upload de fichier",
       "slug": "file-upload",
       "description": "Le but de ce projet c'est de crée un site web qui permet d'uploader des fichiers sur un serveur et de les télécharger. Utilisation possible seulement avec un compte utilisateur.",
+      "shortDescription": "",
       "presentation": "",
       "languages": [
         {
@@ -202,6 +213,7 @@
       "name": "DebtSwapper",
       "slug": "debt-swapper",
       "description": "Réalisation d'un site de partage des dépenses (basé sur le fonctionnement de Tricount). Chaque utilisateur possède un compte et peut créer des événements",
+      "shortDescription": "",
       "presentation": "Ce projet à été réalisé dans le cadre de, bla bla bla...",
       "languages": [
         {
@@ -243,6 +255,39 @@
         {
           "name": "Site web",
           "url": "https://debtswapper.fishcorp.fr"
+        }
+      ]
+    },
+    {
+      "name": "2048",
+      "slug": "2048",
+      "description": "Reproduction du célèbre jeu 2048 en HTML CSS et JS",
+      "shortDescription": "Game of 2048 my own way",
+      "presentation": "",
+      "languages": [
+        {
+          "name": "HTML",
+          "slug": "HTML"
+        },
+        {
+          "name": "JS",
+          "slug": "js"
+        },
+        {
+          "name": "CSS",
+          "slug": "CSS"
+        }
+      ],
+      "technologies": [
+        {
+          "name": "NodeJS",
+          "slug": "nodejs"
+        }
+      ],
+      "links": [
+        {
+          "name": "Github",
+          "url": "https://github.com/Elioce33/2048"
         }
       ]
     }

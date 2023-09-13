@@ -4,9 +4,11 @@ import {LinkList} from "@components/LinkList";
 
 export function Footer() {
   const links = [
-    {label: "Github", slug: "https://github.com/elioce33", blank: true},
-    {label: "Gitlab", slug: "https://gitlab.com/eliott.collin", blank: true},
-    {label: "Linkedin", slug: "https://www.linkedin.com/in/eliottcollin/", blank: true},
+    {label: "Github", slug: "https://github.com/elioce33", blank: true, icon: "bi bi-github"},
+    {label: "Gitlab", slug: "https://gitlab.com/eliott.collin", blank: true, icon: "bi bi-gitlab"},
+    {label: "Linkedin", slug: "https://www.linkedin.com/in/eliottcollin/", blank: true, icon: "bi bi-linkedin"},
+    {label: "eliott.collin0307@gmail.com", slug: "mailto:eliott.collin0307@gmail.com", blank: true, icon: "bi bi-envelope"},
+    {label: "+336 51 29 28 50", slug: "tel:+336 51 29 28 50", blank: true, icon: "bi bi-telephone"},
   ];
 
   return <footer>
@@ -17,13 +19,20 @@ export function Footer() {
           <SiteMap/>
         </div>
         <div className={"link col"}>
-          <h3 className={"h5"}>Utils links</h3>
+          <h3 className={"h5"}>Contact</h3>
           <LinkList links={links}/>
+        </div>
+        <div className={"link col"}>
+          <h3 className={"h5"}>Liens utiles</h3>
+          <ul>
+            <li><a href="/CV_Eliott_Collin.pdf" target={"_blank"}>CV_Eliott_Collin.pdf</a></li>
+          </ul>
         </div>
       </div>
     </div>
     <div className={"copyright"}>
-      copyright © 2023 - Eliott Collin
+      <p>🚧 This website is under construct, I work on it. (I swear !) 🚧</p>
+      <span>copyright © 2023 - Eliott Collin</span>
     </div>
   </footer>;
 }

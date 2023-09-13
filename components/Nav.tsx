@@ -1,5 +1,7 @@
+import styles from './Nav.module.css';
+
 import Link from "next/link";
-import {Bubble} from "@/components/Bubble";
+import {Bubble} from "@components/Bubble";
 
 export function SiteMap() {
   return <>
@@ -8,8 +10,8 @@ export function SiteMap() {
       <li><Link href="/projects">Projects</Link></li>
       <li><Link href="/school_career">School career</Link></li>
       <li><Link href="/works">Work experience</Link></li>
-      <li><Link href="/recommendation">Recommendation</Link></li>
-      <li><Link href="/knowledges">Knowledge</Link></li>
+      <li><Link href="/recommendations">Recommendations</Link></li>
+      <li><Link href="/knowledges">Knowledges</Link></li>
       <li><Link href="/hobbies">Hobbies</Link></li>
     </ul>
   </>
@@ -17,8 +19,10 @@ export function SiteMap() {
 
 
 export function Nav() {
-  return <nav className={"navigation"}>
-    <h2 className={"text-center"}>Navigation</h2>
-    <SiteMap/>
+  return <nav className={styles.navigation}>
+    <Bubble className={styles.bubble}>
+      <h2 className={"text-center"}>Navigation</h2>
+      <SiteMap/>
+    </Bubble>
   </nav>;
 }

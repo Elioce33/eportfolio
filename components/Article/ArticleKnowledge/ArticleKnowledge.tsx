@@ -4,8 +4,8 @@ export function ArticleKnowledge({className = "", knowledge}: any) {
   const {name, slug, knowledge_level, comment, tools} = knowledge;
 
   const toolsItems = tools.map((tool: any, index: number) => {
-    return <li>
-      <Article key={index}>
+    return <li key={index}>
+      <Article>
         <h5>{tool.name}</h5>
         <p>Niveau de connaissances: {tool.knowledge_level}</p>
         <p>{tool.description}</p>
