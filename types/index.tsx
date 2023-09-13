@@ -7,7 +7,6 @@ export interface Project {
     name: string,
     slug: string,
     description: string,
-    presentation: string,
     languages: (string | {name: string, slug : string})[],
     technologies: (string | {name: string, slug : string})[],
     links: Link[]
