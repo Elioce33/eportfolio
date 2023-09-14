@@ -29,7 +29,7 @@ export default function Page() {
               <div className={"col-9"}>
                 <h2>Présentation</h2>
                 <div className={"px-2"}>
-                  <p>Jeune diplômé d'un bac + 3 et fort d'expérience en tant que développeur backend, je suis également ouvert au développement frontend.</p>
+                  <p>Jeune diplômé d'une Licence Pro DA2I (bac + 3) et fort d'expérience en tant que développeur backend, je suis également ouvert au développement frontend.</p>
                   <p>Je cherche continuellement à apprendre de nouvelles façons de faire et à augmenter mes connaissances.</p>
                 </div>
               </div>
