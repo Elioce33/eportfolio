@@ -69,7 +69,7 @@ const PROJECTS_PRESENTATION: Projects = {
 
 export function Project({project_slug}: { project_slug: string }): JSX.Element {
   const project: any = projects.find((project) => project.slug === project_slug);
-  const {name, description, languages, technologies, links} = project;
+  const {name, date, description, languages, technologies, links} = project;
 
   const languagesItems = languages.map((language: string | { name: string, slug: string }, index: number) => <li
     key={index}>{typeof language === "object" ? language.name : language}</li>);
@@ -86,7 +86,9 @@ export function Project({project_slug}: { project_slug: string }): JSX.Element {
 
   return <>
     <div className={"text-center"}>
-      <h2>{name}</h2>
+      <div>
+        <h2 className={"d-inline"}>{name}</h2>{date && <span> - {date}</span>}
+      </div>
       <div className="description fst-italic">
         <p>{description}</p>
       </div>

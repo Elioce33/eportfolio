@@ -3,6 +3,7 @@
     {
       "name": "Client FTP",
       "slug": "client-ftp",
+      "date": "",
       "description": "Implémentation minimal du protocole FTP en Java.",
       "shortDescription": "Application graphique du client FTP.",
       "languages": [
@@ -28,6 +29,7 @@
     {
       "name": "Modélisation 3D",
       "slug": "modelisation-3d",
+      "date": "",
       "description": "Logiciel de modélisation 3D, il est possible de lire des fichier .ply et afficher les objets 3D.",
       "shortDescription": "",
       "languages": [
@@ -52,6 +54,7 @@
     {
       "name": "Serveur HTTP",
       "slug": "http-server",
+      "date": "",
       "description": "Serveur web respectant le protocole HTTP/1.1",
       "shortDescription": "",
       "languages": [
@@ -73,6 +76,7 @@
     {
       "name": "Just Series",
       "slug": "just-series",
+      "date": "mars 2022",
       "description": "Site web qui utilise l'api tvmaze pour afficher des séries.",
       "shortDescription": "Site web de séries",
       "languages": [
@@ -110,6 +114,7 @@
     {
       "name": "Système expert",
       "slug": "systeme-expert",
+      "date": "",
       "description": "Reproduction d'un système expert en Java.",
       "shortDescription": "",
       "languages": [
@@ -129,6 +134,7 @@
     {
       "name": "Gestionnaire de base de données",
       "slug": "bdd-manager",
+      "date": "",
       "description": "Site web en java qui permet d'afficher toute les table d'une base de donnée (H2/postgresql) et qui permet de faire les opération de base de SQL: Select, Update, Insert, Delete",
       "shortDescription": "",
       "languages": [
@@ -169,6 +175,7 @@
     {
       "name": "Site d'upload de fichier",
       "slug": "file-upload",
+      "date": "",
       "description": "Site web en java qui permet d'uploader des fichiers sur un serveur et de les télécharger.",
       "shortDescription": "",
       "languages": [
@@ -205,6 +212,7 @@
     {
       "name": "DebtSwapper",
       "slug": "debt-swapper",
+      "date": "",
       "description": "Site de partage des dépenses (basé sur le fonctionnement de Tricount).",
       "shortDescription": "",
       "languages": [
@@ -253,6 +261,7 @@
     {
       "name": "2048",
       "slug": "2048",
+      "date": "",
       "description": "Reproduction du célèbre jeu 2048 en HTML CSS et JS",
       "shortDescription": "Game of 2048 my own way",
       "languages": [
