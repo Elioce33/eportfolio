@@ -74,7 +74,7 @@
       "name": "Just Series",
       "slug": "just-series",
       "description": "Site web qui utilise l'api tvmaze pour afficher des séries.",
-      "shortDescription": "",
+      "shortDescription": "Site web de séries",
       "languages": [
         {
           "name": "HTML",

@@ -28,8 +28,24 @@ const PROJECTS_PRESENTATION: Projects = {
   "http-server": <></>,
   "just-series": <>
     <p>
-      Il est possible de faire des recherche et d'ajouter certaines séries dans nos favoris (localement)
+      Projet réalisé dans le cadre du cours de programmation web (Javascript) à l'université de Lille. Ce projet à pour
+      but de reprendre toutes les notions vues en cours et de les appliquer. Pour celà, il faut utilisé une API public
+      et créer une application web qui permet de faire des recherches et d'ajouter des éléments dans une liste de
+      favoris. L'API utilisée est celle de <a href={"https://www.tvmaze.com/api"}>tvmaze</a> qui permet de récupérer des
+      données sur des séries. <br/>
+      Le projet est réalisé en trinôme et nous avons eu 3 semaine pour le réaliser.
     </p>
+    <div className={"row"}>
+      <div className={"offset-1 col-1"}>
+        <img src="/images/projects/just-series-logo.png" alt="logo de just series" className={"img-fluid"} />
+      </div>
+      <div className={"col-6"}>
+        <p>
+          Le nom "Just Series" à été choisi car les premières lettres de chaque mot forment le mot "JS" qui est
+          l'abréviation de Javascript et le logo ressemble au bouton play.
+        </p>
+      </div>
+    </div>
   </>,
   "systeme-expert": <>
     <p>
