@@ -24,7 +24,7 @@ export default function Page({ params }: { params: { slug: string } }) {
     </div>
 
     <div className={"fs-4 mt-3 text-center"}>
-      <Link href="/projects" className={"btn btn-outline-light"}>
+      <Link href={`/projects#${params.slug}`} className={"btn btn-outline-light"}>
         <i className="bi bi-box-arrow-left"></i> <span>Revenir à la page Projects</span>
       </Link>
     </div>

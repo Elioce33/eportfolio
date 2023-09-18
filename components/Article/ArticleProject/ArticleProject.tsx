@@ -26,7 +26,7 @@ export function ArticleProject({className = "", project}: any) {
   }
 
   const content = <>
-    <h2>{title}</h2>
+    <h2 id={slug}>{title}</h2>
     <p>{description}</p>
 
     <div className={"row"}>
