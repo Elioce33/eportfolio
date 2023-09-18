@@ -3,7 +3,7 @@
     {
       "name": "Client FTP",
       "slug": "client-ftp",
-      "date": "",
+      "date": "mars/avril 2022",
       "description": "Implémentation minimal du protocole FTP en Java.",
       "shortDescription": "Application graphique du client FTP.",
       "languages": [
