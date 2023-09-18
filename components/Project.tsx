@@ -22,6 +22,7 @@ const PROJECTS_PRESENTATION: Projects = {
       Dans la seconde version du projet, nous avons ajouté une interface graphique pour rendre l'utilisation du client
       plus simple. Cependant, il est toujours nécessaire d'entrer les commandes à la main.
     </p>
+    <span><a href="/documents/client-ftp.pdf" target={"_blank"}>Le pdf du sujet</a></span>
   </>,
   "modelisation-3d": <></>,
   "http-server": <></>,
